@@ -1,0 +1,922 @@
+{"utterance_id": "U_00ac73a9738eae7e", "reference": "æn gɛɾɪt kʌz ʌv dʌ ɹeinɪŋ", "prediction": "dæɪɑ", "per": 0.9, "cer": 0.92}
+{"utterance_id": "U_01509e605f38331b", "reference": "fɛðɚ", "prediction": "ɪɑ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_0218f90af12340d6", "reference": "ðə θʌm", "prediction": "ə", "per": 0.8, "cer": 0.8333333333333334}
+{"utterance_id": "U_0245e818217b363a", "reference": "wɐt di ju wɑnə dʊ lɑik ʧedə ɹidɪŋ ðis bʊk", "prediction": "tɑəɪi", "per": 0.84375, "cer": 0.8780487804878049}
+{"utterance_id": "U_02b105a63752fa4a", "reference": "glæsɪz", "prediction": "wæ", "per": 0.8333333333333334, "cer": 0.8333333333333334}
+{"utterance_id": "U_02e352feadc0b0c5", "reference": "ə zu ɑɪ wɛn n ə zu læs tɑɪm wɪf mɑɪ dædi æm mɑɪ mɑm", "prediction": "ɪɑɑɑɪ", "per": 0.8648648648648649, "cer": 0.9019607843137255}
+{"utterance_id": "U_02f21b66944d8c73", "reference": "miːf", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_03afc4360c0f7efb", "reference": "də ʧildɹn ken plɑn bʌt di nj we bi kwɑʔi", "prediction": "ʧkækk", "per": 0.9032258064516129, "cer": 0.925}
+{"utterance_id": "U_042f94abf4bb4011", "reference": "ɪz ɪnə goɪn tu plei ɪn ðʌ kompjutɚ", "prediction": "ɪik", "per": 0.8888888888888888, "cer": 0.9117647058823529}
+{"utterance_id": "U_04b26597a41408cc", "reference": "əkei", "prediction": "ək", "per": 0.5, "cer": 0.5}
+{"utterance_id": "U_04e30c69de8fedc8", "reference": "teibəɫ", "prediction": "i", "per": 0.8333333333333334, "cer": 0.8333333333333334}
+{"utterance_id": "U_0501948228286351", "reference": "dɑg", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_054d94c107b7e6e8", "reference": "bɛɫt", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_05a21969f1578d1e", "reference": "ə spɑdɚ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_05b97a6e4f9dca1c", "reference": "bɔi", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_0605993d4c3153bd", "reference": "ɑi wɑnə tɛ ju ʌ stɚi əbɑʊt dɪs wʌn fɚst", "prediction": "iɑk", "per": 0.9333333333333333, "cer": 0.9487179487179487}
+{"utterance_id": "U_0670a631123674b3", "reference": "ɪnstɛɾ əv dɹɪŋkɪŋ hɪz mɪɫk wɪɫwiv eit ə gwin æpəɫ", "prediction": "əæʧɑkə", "per": 0.925, "cer": 0.9387755102040817}
+{"utterance_id": "U_06940e1793698eff", "reference": "məteiɫ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_06a9677b6aa67d14", "reference": "nɑʊ ɑl dɪ ɑl dʌ ænɪmolz ɑɚ soʊ hæpi", "prediction": "ɪiɑ", "per": 0.9259259259259259, "cer": 0.9428571428571428}
+{"utterance_id": "U_06f7a9930356d45d", "reference": "diŋk ðʌ gɚl", "prediction": "i", "per": 0.8888888888888888, "cer": 0.9090909090909091}
+{"utterance_id": "U_070b2c27035717cb", "reference": "ɑi sɛd wi ʤʌs stɔɾɪd ðɪs tɑimɚ", "prediction": "æɪ", "per": 0.9583333333333334, "cer": 0.9666666666666667}
+{"utterance_id": "U_072734600cbd2a31", "reference": "dɪd ɪ ivɪn fɪ", "prediction": "ə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_0768f9a86fc88e9f", "reference": "oɹɪnʤ ʤus", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_07de4b840363142e", "reference": "ɪ ʤʌs stɑːɾɪd kæptɪn", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_07f03624ddb4f1a8", "reference": "gɛs", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_0802d47479ce1e02", "reference": "koɹ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_085801b0249e6a37", "reference": "dʌ koʊt wʌz nɑt won bɑi hɪz sɪstɚ", "prediction": "əæb", "per": 0.9615384615384616, "cer": 0.9696969696969697}
+{"utterance_id": "U_088d9f847f8b5277", "reference": "wɑi dʌz ʌ bɹoʊkɪn bɹænʧ hɪɚ", "prediction": "æəɑʧ", "per": 0.9545454545454546, "cer": 0.9629629629629629}
+{"utterance_id": "U_08c95f258d8e7df2", "reference": "kəʧu ðæt kɑ", "prediction": "ʧdæ", "per": 0.7777777777777778, "cer": 0.8181818181818182}
+{"utterance_id": "U_0952bcd3a98bafba", "reference": "həmbɚgəɹ", "prediction": "i", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_09ae3477fce9416d", "reference": "dæɾi wək", "prediction": "ɪæ", "per": 0.8571428571428571, "cer": 0.875}
+{"utterance_id": "U_0a004f84b4c58fb3", "reference": "bæfttubəgɔid", "prediction": "æə", "per": 0.8333333333333334, "cer": 0.8333333333333334}
+{"utterance_id": "U_0a531a141b8e34ec", "reference": "flɔwɪn", "prediction": "k", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_0ad49343daaf54ea", "reference": "pæʧeɪvɑ", "prediction": "kʌ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_0b2ed5e2593af940", "reference": "ðə ʧɪɫdɹɪn kæn plei bʌt ðei nid tə bi kwɑijɪt", "prediction": "ʧæiki", "per": 0.8611111111111112, "cer": 0.8888888888888888}
+{"utterance_id": "U_0b82cbbb515f5f23", "reference": "də də kɑkə tɑi", "prediction": "ək", "per": 0.8181818181818182, "cer": 0.8571428571428571}
+{"utterance_id": "U_0ba2072346c2dbd7", "reference": "keiʤ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_0bc2c7f4010e696c", "reference": "nɔidmɑi", "prediction": "i", "per": 0.8571428571428571, "cer": 0.8571428571428571}
+{"utterance_id": "U_0c737848d484ae8d", "reference": "ðɚː ɑi si ə twi ɑn ə bɹɑnʧ", "prediction": "əɪtdp", "per": 0.9473684210526315, "cer": 0.9230769230769231}
+{"utterance_id": "U_0c853c6bf46df0b8", "reference": "lʊk", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_0cdd17f648b489ef", "reference": "ɛɚpleiːn ɹɑi dɛɚ", "prediction": "i", "per": 0.9285714285714286, "cer": 0.9375}
+{"utterance_id": "U_0d1d88b6b3f613c3", "reference": "ɑim kɑində ʧɪɫi", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_0db4ecd652cc2d2b", "reference": "ɑim hɑidɪŋ", "prediction": "ə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_0dde5d19372e0652", "reference": "jɛ ɛvɹiwɛ", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_0de3cd5aaecdeffe", "reference": "nim bɔi", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_0e3b32cd2b83e08e", "reference": "ən ɑi s", "prediction": "əæ", "per": 0.8, "cer": 0.8571428571428571}
+{"utterance_id": "U_0e4afeb9305c799a", "reference": "okei ɑi si ɑi si dæt ɪt ɪs wʌn", "prediction": "æiiɑɪ", "per": 0.8181818181818182, "cer": 0.8666666666666667}
+{"utterance_id": "U_0f4453e3ed64c7fd", "reference": "ə zibɹə", "prediction": "əsæ", "per": 0.8333333333333334, "cer": 0.8571428571428571}
+{"utterance_id": "U_0f490fe41883e048", "reference": "jɛɑ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_0f6d98b221947462", "reference": "ɑːnd ə hɔs", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_0f6ec7985e800704", "reference": "ɑ don ivɪn kɑ æz tu si", "prediction": "ʌə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_0f7552d2a01db1dd", "reference": "tɑʊmd wolɑʊ kɑp", "prediction": "ʧ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_0fe48cde2df3e0fa", "reference": "dæk gɑʊm kloʊðz", "prediction": "æ", "per": 0.9230769230769231, "cer": 0.9333333333333333}
+{"utterance_id": "U_1022867274ef8b55", "reference": "nɑʊ ɑɪm gənə tɑk tu ju", "prediction": "æt", "per": 0.9411764705882353, "cer": 0.9545454545454546}
+{"utterance_id": "U_10e1ca470f6cd200", "reference": "vi hɑʊ hæd tə stɑp sɑt pleɪjɪn ɑʊsɑɪd bikʊz ɪt hæh ɹeɪn so mjətəʃl", "prediction": "æpɑæs", "per": 0.9056603773584906, "cer": 0.9242424242424242}
+{"utterance_id": "U_10f50bf56e2385d7", "reference": "uːwɔi", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_1139caa8b0c5a98f", "reference": "ə fɪʃ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_11868662cb88fd3d", "reference": "ɪt dʌzɪn goʊ ɪn ʌ bɑːn ɪ goʊz ɑn sʌmθɪŋ", "prediction": "piə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_11bf6d9dbc43f92c", "reference": "ʧɹeiɚ", "prediction": "ɛ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_11cd79299739cd21", "reference": "kɪ ʧɛl vɑɚp", "prediction": "ɑæ", "per": 0.8888888888888888, "cer": 0.9090909090909091}
+{"utterance_id": "U_121d738acd8c40d6", "reference": "ʌ pɑt", "prediction": "ə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_127d7f0f3abb08bc", "reference": "mo dɑ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_12e3d9a939619135", "reference": "kɑin gɑʊ vumblɪ", "prediction": "ɑ", "per": 0.9230769230769231, "cer": 0.9333333333333333}
+{"utterance_id": "U_12ef60878d907cc9", "reference": "gɪm ko væ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_13147812ba2739f0", "reference": "wi dɹɑ stʌf dæt ʧu wɑnə dɹɑ", "prediction": "isəiəɪd", "per": 0.8571428571428571, "cer": 0.8518518518518519}
+{"utterance_id": "U_133d10d1c5c52f22", "reference": "zu", "prediction": "ʌ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_139d3829792d2b58", "reference": "ɑi wɑn æftɚ dɪs ɑi wɑnə plei wɪf lʊk dʌ fɑɚmɚ hi niz tu goʊ ʌʁ dʌ læɾɚ tu gɛt dʌ ʧɪkɪn", "prediction": "ɑɪiæiɪɪætidɪɪ", "per": 0.8461538461538461, "cer": 0.8837209302325582}
+{"utterance_id": "U_13c24101af0552a3", "reference": "vɛɹi bɔɹɪŋli", "prediction": "ɪ", "per": 0.9090909090909091, "cer": 0.9166666666666666}
+{"utterance_id": "U_13d28a4d39c8fc58", "reference": "sei soʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_14594efe70427eb2", "reference": "wʌfɑi kip duɪn ɪt ɹɑit ɑp wi gɑnə gɪvɚ ɑnʌðɚ wʌn", "prediction": "iədɪə", "per": 0.8947368421052632, "cer": 0.9166666666666666}
+{"utterance_id": "U_1464a9f631c4017e", "reference": "æ dʌ fɑɚmɚ fɛl", "prediction": "tæ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_1466d097678d0b14", "reference": "wɪl ju witʊn ðʌ bʊk ju bɑwoʊd fwʌm ðʌ lɑibɛwi tumɑwoʊ", "prediction": "əkɑəkəəæi", "per": 0.9302325581395349, "cer": 0.9433962264150944}
+{"utterance_id": "U_146c741c90caf21e", "reference": "blu", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_14a19059624a9cf2", "reference": "ʌ bɔi ɑɚ ʌ gɚl", "prediction": "əɪ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_156be497a92061af", "reference": "pijɑməz", "prediction": "idɑ", "per": 0.7142857142857143, "cer": 0.7142857142857143}
+{"utterance_id": "U_157148ac68227042", "reference": "bɑːk", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_15828993441e7841", "reference": "ðə bɔi bɑt hɪmsɛɫf ə bɹei nu ɑlɑɹm klɑk", "prediction": "əbækək", "per": 0.8709677419354839, "cer": 0.8974358974358975}
+{"utterance_id": "U_1606a4bada929c9d", "reference": "ə lɑɪjɪn", "prediction": "ə", "per": 0.8571428571428571, "cer": 0.875}
+{"utterance_id": "U_1614f512d1400bfd", "reference": "tɹʌk", "prediction": "ʌə", "per": 0.75, "cer": 0.75}
+{"utterance_id": "U_16261eb625ad8579", "reference": "tiɹi toʊ tɛɹæɹi", "prediction": "i", "per": 0.9230769230769231, "cer": 0.9333333333333333}
+{"utterance_id": "U_16b149a3f1aeec88", "reference": "dʊd i plei sɑkɚ ɪn də geim oɹ dɪd hi wæʧ də geim ɑn də tivi", "prediction": "æɪkæʧkɑt", "per": 0.8863636363636364, "cer": 0.9152542372881356}
+{"utterance_id": "U_16c2c47bf2b908ad", "reference": "oʊ noʊ hi fɛl", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_16d96c97b992e7cb", "reference": "ədə ʌm sɑwi", "prediction": "ɪ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_17078d8d9f15b156", "reference": "ðə bɚʤ ɑɚ pɔjɪn kwɪhli", "prediction": "əti", "per": 0.8888888888888888, "cer": 0.9090909090909091}
+{"utterance_id": "U_171e9de7da172e43", "reference": "sunʌŋk", "prediction": "i", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_1745f6848fccf4e9", "reference": "ʌ dɑg", "prediction": "əd", "per": 0.75, "cer": 0.8}
+{"utterance_id": "U_17641f9a0d36831c", "reference": "poɚhiːmɪg k", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_17842f2192fb4a6b", "reference": "tif", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_17d212123c53fb7b", "reference": "oʊ ə wɛb", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_1870e83c61f5109e", "reference": "klɑk ɑi min wɑʧ", "prediction": "ʌəɪʧ", "per": 0.9166666666666666, "cer": 0.9333333333333333}
+{"utterance_id": "U_18bb26bd3220dbd6", "reference": "kəntein næp", "prediction": "ʧ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_19a0a167ae4467ad", "reference": "ʌ mʌŋkɪ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_19a53548409b57e6", "reference": "pæt", "prediction": "æk", "per": 0.6666666666666666, "cer": 0.6666666666666666}
+{"utterance_id": "U_19c46a20a093f3fc", "reference": "boʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_1a859ea5c9752ab0", "reference": "guəɫd θɑi θɐwo", "prediction": "əkææ", "per": 0.9166666666666666, "cer": 0.9285714285714286}
+{"utterance_id": "U_1aaeb4e15bf6444a", "reference": "huhumboink", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_1ae8ed396074cdb4", "reference": "ʧɑɪjl", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_1b1144d6edc5abd0", "reference": "its goɪŋ ʌp ðʌ læɾɚ tu seiv ɪt", "prediction": "ɑəds", "per": 0.9565217391304348, "cer": 0.9666666666666667}
+{"utterance_id": "U_1b19ff69cb1a9dfb", "reference": "njowɪʃ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_1b1c7d22b445f829", "reference": "weiwi", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_1b6b84280fd9945e", "reference": "ə tɑɪgɚ", "prediction": "tæ", "per": 0.8333333333333334, "cer": 0.8571428571428571}
+{"utterance_id": "U_1b79a5496bb621ca", "reference": "tif", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_1bb9622f57835f45", "reference": "oʊ ɑm tɑkɪŋ tu ju", "prediction": "ʌɪ", "per": 0.9230769230769231, "cer": 0.9411764705882353}
+{"utterance_id": "U_1c6c78db2b2cc38c", "reference": "hekjɑkəvoɪd", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_1d7dbacfbcd7b5b3", "reference": "okei", "prediction": "ə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_1de314bf2f63c611", "reference": "flɚ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_1e391d026572f58f", "reference": "ɑlmoʊs", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_1e41194eb608c20b", "reference": "jæ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_1e9de3be0de53988", "reference": "ðɪs fæmɪli wɪl nɑt bi goɪn ɑis wɪθ hɪ fɹɛn əntɪl skul ɪz ɑʊt ɪn ʤun", "prediction": "ɑəbædəæ", "per": 0.9423076923076923, "cer": 0.9552238805970149}
+{"utterance_id": "U_1f445a1a2a321f59", "reference": "goʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_1f45e454dcb06f38", "reference": "ðʌ ʧɪlɪn kju pu plei bət bi wot ɑlo", "prediction": "əʧə", "per": 0.9259259259259259, "cer": 0.9428571428571428}
+{"utterance_id": "U_1f4d56c491424fbe", "reference": "his nɑt gɑnə noʊ wɛɚ ɛvɹibɑɾi æ ɛvɹi ɑl dʌ ænɪmolz ɑɚ goɪn hoʊm", "prediction": "ɪɑə", "per": 0.96, "cer": 0.9682539682539683}
+{"utterance_id": "U_1f72d8b5a4383fe1", "reference": "bɑʊfsiʧɔid", "prediction": "ʧ", "per": 0.9, "cer": 0.9}
+{"utterance_id": "U_1faa4069a2cd2e72", "reference": "ðɚ slipi", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_1fc5c0c8e5169c18", "reference": "glubəʧɑɪ", "prediction": "əʧ", "per": 0.75, "cer": 0.75}
+{"utterance_id": "U_201c16bab52b6091", "reference": "okei bʌ ɑi wɑnə tɛl də pɹɪŋsɪpol ɪf ɑi doʊŋ fɑin mɑi ʃuz", "prediction": "ətəəəɪd", "per": 0.8863636363636364, "cer": 0.9107142857142857}
+{"utterance_id": "U_20dfb186847ad09f", "reference": "tughoʊgni", "prediction": "k", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_21076bdb30f191fc", "reference": "ɪnsɛɾ n ʤɹɪŋkɪŋ hɪz mɛlk wiləwɪli eɪt ə gɹin æpl", "prediction": "ɪkæəiəbæ", "per": 0.8461538461538461, "cer": 0.875}
+{"utterance_id": "U_21263b7e7901747b", "reference": "hɑʊ du ɑi kloʊz ðɪs ʌp", "prediction": "ɪs", "per": 0.8823529411764706, "cer": 0.9090909090909091}
+{"utterance_id": "U_2153649575759ad1", "reference": "hɑd", "prediction": "ɪ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_2159276f0b46ece6", "reference": "ɑiɚni", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_21700844d079a7a7", "reference": "j gnə tɑk tu mi nɑʊ", "prediction": "ɪtt", "per": 0.8571428571428571, "cer": 0.8947368421052632}
+{"utterance_id": "U_21f2de37e39d585b", "reference": "æː", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_2214e9ecaf64d92c", "reference": "ə slɑɪd", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_223cb701412798b3", "reference": "dʌk", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_22624ac4d10e0409", "reference": "tɑk", "prediction": "tæ", "per": 0.6666666666666666, "cer": 0.6666666666666666}
+{"utterance_id": "U_22b5ba8d2817994f", "reference": "flɑɹei", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_230de0ebfa06d1d1", "reference": "pɔint tu dʌ wɑt ʌm slipɪŋ", "prediction": "ə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_243f51d3b8378603", "reference": "əbɑʊkɑɪn", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_2454bc91acf31e40", "reference": "ɑ lʌk kjut", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_24587d1b504dd68d", "reference": "pɹɪnsɛs", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_24b362bc39094d8c", "reference": "nɑif", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_24cd83435b4cd916", "reference": "kwiːn", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_253ee758486355aa", "reference": "dʌ oɹɪn ʤus", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_254b946bd3f267a1", "reference": "fɪŋgɚz", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_25a152ab613660be", "reference": "tiːkənɑi", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_25c49f4737609ce9", "reference": "m noʊ weit ɪt dɪɾɪn fɛlz ʌp hɪɚ də ɑ ɪz ɪn ʌndɚ ɑɾɚ tɑp dʌ ʌɾɚ wuf", "prediction": "ɪækɪsiɑtə", "per": 0.9183673469387755, "cer": 0.9393939393939394}
+{"utterance_id": "U_25e9cd9a4352c37e", "reference": "bʌt sʌmtɑimz mɑi mɑm dʌz", "prediction": "ɪəwɪ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_265b801c6bfe24d5", "reference": "fɛɚ tigu fɛ ʃi hu bɪ nɑʃ ðæts tɹei ɛvɹiwʌn bɪn", "prediction": "kəiɑəɑɑə", "per": 0.9444444444444444, "cer": 0.9565217391304348}
+{"utterance_id": "U_26fe49a6fb9f75e7", "reference": "soʊp", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_27917ab04a1f3f96", "reference": "boʊ", "prediction": "d", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_27b1f4b4f210cba8", "reference": "punkeiləp", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_27bc9511e4fcdf31", "reference": "væktɑfəkɔi", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_285727f9c9297012", "reference": "voɪŋgmobəʧun", "prediction": "ət", "per": 0.9166666666666666, "cer": 0.9166666666666666}
+{"utterance_id": "U_28eb2a8e9a1cab78", "reference": "bɹʌðɚ", "prediction": "æə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_28ec569e55d98260", "reference": "kjɐo", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_2ab0cb2ed11c1c97", "reference": "bɛd", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_2ab3401e3dffd5d1", "reference": "bʌt hi kænɑ hi kænɑ goʊ ʌp dɛɚ wʌz dɪs foɚ", "prediction": "əs", "per": 0.96875, "cer": 0.9761904761904762}
+{"utterance_id": "U_2ada6b520cdb5048", "reference": "æn nɑʊ wʌt geim wi gɑnə plei nɑʊ", "prediction": "ɑəə", "per": 0.92, "cer": 0.9375}
+{"utterance_id": "U_2ae0244335219204", "reference": "hɑʊd ɑi kloʊz ðɪs ʌp", "prediction": "iɑ", "per": 0.9375, "cer": 0.95}
+{"utterance_id": "U_2b04812a209a641d", "reference": "ɪnstɛd ʌv dɹɪntɪn hɪz mɪlk wɪli wɪli eit ʌ gɹin æpol", "prediction": "əækkɑiəkæ", "per": 0.9285714285714286, "cer": 0.9423076923076923}
+{"utterance_id": "U_2b4dbb6141b4195f", "reference": "ðʌ plæn ɪn ðʌ pɑt nɛks tu doɚ hæz nɑ bɪn wɑjod ɪn ðwi dʌnts", "prediction": "əædəəækɑəæ", "per": 0.9111111111111111, "cer": 0.9322033898305084}
+{"utterance_id": "U_2b50f3a45d777335", "reference": "ju dɹiŋk stʌf", "prediction": "iiɑʌ", "per": 0.8181818181818182, "cer": 0.8461538461538461}
+{"utterance_id": "U_2b73f23a8ef2737b", "reference": "fɚst ɑi wɑnə tɛl ju sʌmθɪŋ wɑi dʌz wʌn ʃu dɛɚ", "prediction": "səəi", "per": 0.9142857142857143, "cer": 0.9333333333333333}
+{"utterance_id": "U_2b834ef757fa941a", "reference": "jæ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_2bfa7df26864bf89", "reference": "ju jus ɪt wɛn jɚ kold", "prediction": "əækɑ", "per": 0.9375, "cer": 0.9523809523809523}
+{"utterance_id": "U_2c0451cd39653253", "reference": "təhumdə ʃlɑʊ mɚlənd", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_2c5f27dd05baaf39", "reference": "soʊj", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_2c809adcea249cee", "reference": "hə jɚ bəʧeɪɾɚ ðə hɛd bɑɹəd fɚ ðə lɑɪdjɑl tɚnɑʊ", "prediction": "ɪət", "per": 0.918918918918919, "cer": 0.9347826086956522}
+{"utterance_id": "U_2d488cabaca2343c", "reference": "oʊ wɑʊ", "prediction": "ə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_2d974c32c5b52a11", "reference": "ɑn dɚz ə bɑ əndɚniθ", "prediction": "ɪəb", "per": 0.8666666666666667, "cer": 0.8947368421052632}
+{"utterance_id": "U_2daa818db9b2230e", "reference": "teinboʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_2e50ff8ac484078d", "reference": "bɛd", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_2e64f248fd45699d", "reference": "næpɚkɑd fɪn", "prediction": "ɑək", "per": 0.9, "cer": 0.9090909090909091}
+{"utterance_id": "U_2e84f5ab24c958f4", "reference": "fɪʃ", "prediction": "əə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_2ea3517218b66aac", "reference": "ʧiːz", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_2eecd15e778bd00b", "reference": "ə θʌm wɑɪ dʌz ðæt hæz ə tu æn ə θɹi tu si ɪf ɑɪ sɛz ɹɑŋk", "prediction": "æɪætæikiɪ", "per": 0.825, "cer": 0.875}
+{"utterance_id": "U_2fb2ee8b427d93e7", "reference": "ɹɑi dɛɚ ɹɑi dɛɚ", "prediction": "də", "per": 0.9166666666666666, "cer": 0.9333333333333333}
+{"utterance_id": "U_2fb4ca982ff300fe", "reference": "æ gɪn", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_2fdf13d1c392c035", "reference": "mːɑʊs mɑʊs", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_2fe1be901c8e5410", "reference": "oɹɪnʧ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_30b254f580aed04b", "reference": "ə hæmɚ", "prediction": "ɑ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_30c1c22b53d33c1c", "reference": "ɑi θɪŋk wi nid tə tən ðə tɑimə ɑf", "prediction": "ətiiiɪ", "per": 0.88, "cer": 0.9090909090909091}
+{"utterance_id": "U_30d5efe7bbf1fb7c", "reference": "ðʌ blæk kɑɚ pæst ʌs bɑi goɪŋ vɛɹɪ fæ", "prediction": "ækk", "per": 0.8928571428571429, "cer": 0.9166666666666666}
+{"utterance_id": "U_30f620d60f313697", "reference": "fiːst", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_310502421c5acdc1", "reference": "ɑi wʊd sei ɑi wʊd sei pliz", "prediction": "k", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_313f15eabb93df0c", "reference": "wʌt hʊ du wi hæv tu plei dæt geim", "prediction": "wʌdætkiɛ", "per": 0.76, "cer": 0.8181818181818182}
+{"utterance_id": "U_31822555a0effba3", "reference": "tʌk", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_31873e597fdeca33", "reference": "hʊd", "prediction": "ʌ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_318c87291c660606", "reference": "gɹiːn", "prediction": "ki", "per": 0.8, "cer": 0.8}
+{"utterance_id": "U_31d13ed2156a8b27", "reference": "neiz fɚgɛt ʤiːz", "prediction": "əæ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3201521f37a175c0", "reference": "ðʌ w ðʌ wɛd bɑl wʌz kɪkt ɪntu dʌ stɹit bɑi ʌ jʌŋ bɑl", "prediction": "əæəəkiɑæ", "per": 0.9230769230769231, "cer": 0.9423076923076923}
+{"utterance_id": "U_32f843264ea33a48", "reference": "bɔinistæ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_335dbc6017f553b7", "reference": "boi", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3383cb3c4e832dae", "reference": "bɑːk bɑːk", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_344a52d0d107f16e", "reference": "ɪnstɛ ɑv dɹiŋkɪŋ hɪz mɑg wɪl nu hɛsɪ tɔi ɑn bɑ", "prediction": "əæsɑɑæ", "per": 0.9166666666666666, "cer": 0.9347826086956522}
+{"utterance_id": "U_344f54b94e4088ea", "reference": "dæt bʊk", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_34653c23f1a33411", "reference": "mː mː", "prediction": "i", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_350bd2944f25eb1c", "reference": "tə meik kʌkiz ðə ʃɛf ɪz mɪksɪŋ ʃʊgɚ mɪɫk ən flɑʊwɚt", "prediction": "iæʧækəɑ", "per": 0.9024390243902439, "cer": 0.9215686274509803}
+{"utterance_id": "U_35267d559362d8a6", "reference": "jɛloʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_35287a7cc93692da", "reference": "sʌmbɑɾi lɛf dæt bʊk dɛɚ kʌz ðei foɚgɑɾɪt", "prediction": "əææɪəkæɪ", "per": 0.9090909090909091, "cer": 0.925}
+{"utterance_id": "U_357f3f629b559539", "reference": "gɑɹ goʊ", "prediction": "b", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_35aa6039b12623ff", "reference": "oʊ nɚs", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_35be552ab209cd0f", "reference": "ɾ ɐɔ ɫ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_35cda11972cd2f75", "reference": "noʊ noʊ ɪz nɑt dʌ seim", "prediction": "æs", "per": 0.9411764705882353, "cer": 0.9545454545454546}
+{"utterance_id": "U_3631b2810af94670", "reference": "bɑːk", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3657ae7102ea6079", "reference": "hi wʊdənt goʊ wɪð hɪz sɪstɚ pʌz hi wɚs tɑijɚt", "prediction": "æt", "per": 0.9722222222222222, "cer": 0.9777777777777777}
+{"utterance_id": "U_36d7941851bc1236", "reference": "ɪz æt dʌ tɑimɚ", "prediction": "æ", "per": 0.9090909090909091, "cer": 0.9285714285714286}
+{"utterance_id": "U_36d9de56ca4d0392", "reference": "woɫispɪn", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_372e66a4d85229aa", "reference": "hmbɛd", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_375477070779c28f", "reference": "kʌp", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_37a29299096ff959", "reference": "wʌɾɛvɚ kwɛsʧɪn ɪd ɪz jɚ gɑnɑ pɛs ɪt", "prediction": "æiɪdɪə", "per": 0.8928571428571429, "cer": 0.9142857142857143}
+{"utterance_id": "U_37f8686044eeb908", "reference": "ɪn ə wɛp", "prediction": "əæ", "per": 0.8333333333333334, "cer": 0.875}
+{"utterance_id": "U_37fcb6439cb66173", "reference": "ðɪ goɪn ɪn dʌ slɑid lʊkdʌ bɚdz", "prediction": "ikəəg", "per": 0.9166666666666666, "cer": 0.9333333333333333}
+{"utterance_id": "U_37ffe656f1b08617", "reference": "nimvɔijɪk", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_381d782f81f45d52", "reference": "kʊki", "prediction": "ɪ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_38825175408d36fb", "reference": "gutumtɑimbɑʊf", "prediction": "k", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_388294f24c1fb602", "reference": "mɑʊdif", "prediction": "ɑki", "per": 0.6666666666666666, "cer": 0.6666666666666666}
+{"utterance_id": "U_392e2db6fe78ec3f", "reference": "ðʌ kæts fud", "prediction": "ɪkt", "per": 0.7777777777777778, "cer": 0.8181818181818182}
+{"utterance_id": "U_39823afc62a790bd", "reference": "ɑts stɑp", "prediction": "ɪsə", "per": 0.8571428571428571, "cer": 0.875}
+{"utterance_id": "U_399f17492abab9d1", "reference": "oʊd", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_39d15ce551b1f41a", "reference": "ə mʌŋki həloʊ", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_39fedc4b20c0a8e4", "reference": "fu fɑl boi", "prediction": "t", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3a2922f8cfb189d3", "reference": "hlɹæd", "prediction": "ʧ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3a535d5f44b8fa96", "reference": "æn dɪs stɑɹi mei meibi dei hæv ʌ hɑʊs hɪɚ ɪn dɪs stɑɹi", "prediction": "æddiiɑæs", "per": 0.8571428571428571, "cer": 0.8888888888888888}
+{"utterance_id": "U_3aa4e42270a5f94c", "reference": "doʊz lɑinz", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3adcf25ac01f83dc", "reference": "jɛ tɹækɚ gɑi", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3afe0478ae221f25", "reference": "teil", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3b0fb403f48aceeb", "reference": "bə wɛn wi gənə pʌ ðə bɑːn", "prediction": "d", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3b24c807deac47dd", "reference": "ə ɛlɪfɪnt", "prediction": "æɑə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3b373ef34e2d223d", "reference": "kɛfnəboʊknoɹmoɹb", "prediction": "ææ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3b4690fcb9f49fdb", "reference": "gjæ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3b7c6d7204e4705f", "reference": "jæ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3b7f3f87b0c44350", "reference": "oʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3bd54135331a1c8f", "reference": "njʌt", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3c0e60f44aea05b2", "reference": "ðʌ ʧɪldɪn kæn plei bʌt ðɛ nid tu bi kwɑiɹɪ", "prediction": "ʧkkɪæk", "per": 0.8787878787878788, "cer": 0.9047619047619048}
+{"utterance_id": "U_3c285c321cb243a7", "reference": "ʧiz", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3c2b5fbb7e8ae297", "reference": "bʊ wɛɚz dʌ peigɹɑʊn", "prediction": "əɪ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3c3bc7443c5f9cb5", "reference": "nboʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3c6b6a6294d816eb", "reference": "bɑo ben solenge", "prediction": "ɑə", "per": 0.9230769230769231, "cer": 0.9333333333333333}
+{"utterance_id": "U_3c793ec2b833b6b7", "reference": "noʊ", "prediction": "ə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3c86a1dda5c157e7", "reference": "liv", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3cf49bef58bf3b4f", "reference": "zuktɑʊf", "prediction": "ækɑ", "per": 0.7142857142857143, "cer": 0.7142857142857143}
+{"utterance_id": "U_3d6169999ecf510f", "reference": "meihugeif", "prediction": "k", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3d755c8e2550eebb", "reference": "wʌtsə pɪk t ʧɚ tæsk", "prediction": "ɑəkɪkæ", "per": 0.7333333333333333, "cer": 0.7894736842105263}
+{"utterance_id": "U_3e8911589f1daeeb", "reference": "ɪn ðʌ kompjutɚ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3eeee3428190878e", "reference": "ðʌ dʌk goʊ hɪɚ ɪ fɪt", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3f085aa0341b3e8a", "reference": "keiʤ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3fb5fba195c7df61", "reference": "wʌt", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3fc1d8b19eb1420d", "reference": "noʊː", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_3fc7fc1f72dc6252", "reference": "mɑi lɛgz oʊkei", "prediction": "ə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_404bc4190df66ae9", "reference": "ʧɔig", "prediction": "k", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_4070024a624a47db", "reference": "nɑʊ hoɚs", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_40af43edb6f84141", "reference": "ʤɚæf", "prediction": "æ", "per": 0.75, "cer": 0.75}
+{"utterance_id": "U_41a04140aca69aaa", "reference": "də bɑdɚ", "prediction": "ədæ", "per": 0.6666666666666666, "cer": 0.7142857142857143}
+{"utterance_id": "U_41ab2d5207451c91", "reference": "æftɚ dɪs wʌn dɛɚz gɑnə bi foɚ ʌv dɛm ðæts gɑnə bi ʌ hɑɚd wʌn", "prediction": "ækɪiəɑææɪ", "per": 0.8913043478260869, "cer": 0.9166666666666666}
+{"utterance_id": "U_41b979ae5db415dc", "reference": "poʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_41ce5bbe256101b3", "reference": "jæ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_421a93b0faea5c3e", "reference": "supt", "prediction": "ɪ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_423efcc3704de5f3", "reference": "fɛɾɚ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_42e1e8fb45c9a041", "reference": "woʊ dʌ dʌk ɪz stʌk", "prediction": "ɪbædɪ", "per": 0.8571428571428571, "cer": 0.8888888888888888}
+{"utterance_id": "U_434598c926c92e09", "reference": "nɑʊpə", "prediction": "ə", "per": 0.8, "cer": 0.8}
+{"utterance_id": "U_434c5b59e3807584", "reference": "gumdʌʧɑitɑʊ", "prediction": "tʧ", "per": 0.9090909090909091, "cer": 0.9090909090909091}
+{"utterance_id": "U_438b582af5557e1b", "reference": "kæʃ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_438cbffa5e5c4738", "reference": "fiːboʊk", "prediction": "ɪ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_43e8b8048ec505ef", "reference": "t tɑʊnisukɑis", "prediction": "ə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_44411dbce1f2476b", "reference": "wʌt ɑl ʌv dɛm hæz ʌ stɪkɚ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_44598ffb6275352a", "reference": "ɑim goɪŋ tə tu tu tu", "prediction": "ɪt", "per": 0.8666666666666667, "cer": 0.9}
+{"utterance_id": "U_447239aaaf7bf06d", "reference": "tɛəɫ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_451852c1f99cbfd5", "reference": "tiʧɚː", "prediction": "i", "per": 0.8, "cer": 0.8}
+{"utterance_id": "U_451f0adf2d1dd536", "reference": "ɑi wʊd klin", "prediction": "ki", "per": 0.7777777777777778, "cer": 0.8181818181818182}
+{"utterance_id": "U_452409d64ee269ec", "reference": "bæk ɪn ðə bɑks", "prediction": "ək", "per": 0.8181818181818182, "cer": 0.8571428571428571}
+{"utterance_id": "U_459804ccd45fcc26", "reference": "wi duɪn pɪtʧɚ tæsk", "prediction": "idks", "per": 0.8, "cer": 0.8333333333333334}
+{"utterance_id": "U_45c1e82f713c5418", "reference": "wɑt wɑʧ wʌ ɑim gɑnə plei æftɚ", "prediction": "ɪkæ", "per": 0.9565217391304348, "cer": 0.9655172413793104}
+{"utterance_id": "U_464c94865f4b80bf", "reference": "jeibi", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_467cc41a98740261", "reference": "ɪn dʌ bɑɾəm æn dæts ɪt", "prediction": "əɑ", "per": 0.9411764705882353, "cer": 0.9545454545454546}
+{"utterance_id": "U_472957107bcd093a", "reference": "ɑi noʊ hɑʊ ɾə du ɪt nɑʊ", "prediction": "æk", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_472edb64ca387a5a", "reference": "tiθ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_47e551056b3566ff", "reference": "t ə bɛɫ n", "prediction": "kd", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_483d153b74dcafe2", "reference": "hɑmfoɚgipɑ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_487881c8b1b6400f", "reference": "ənstɛd ʌv dɹɪŋkɪŋ gɪs mɪlk hi eitə gɹin æpəl", "prediction": "ɑɑæə", "per": 0.9444444444444444, "cer": 0.9545454545454546}
+{"utterance_id": "U_48823c0aff50d09a", "reference": "gɪftə wɚ gənə du gɪftə", "prediction": "ɪəɛɪɪ", "per": 0.8333333333333334, "cer": 0.8636363636363636}
+{"utterance_id": "U_489c17c664b5b65a", "reference": "fɑgɔiudənʧən", "prediction": "i", "per": 0.9166666666666666, "cer": 0.9166666666666666}
+{"utterance_id": "U_499b18f59914f340", "reference": "skeipɚ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_4a47de2429cf858c", "reference": "jæ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_4a83a557a3a81b58", "reference": "θɹi mɪnəts", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_4aa454e5c43eda7c", "reference": "nɔimɑɪ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_4adc95f12d6364f9", "reference": "ə pʌzo", "prediction": "əæ", "per": 0.8, "cer": 0.8333333333333334}
+{"utterance_id": "U_4aebdae22a13367d", "reference": "bəjæməz", "prediction": "ɪ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_4baa36bbad2baa79", "reference": "jæ ɛvɹibɑɾi hæs tu goʊ hoʊm fæst", "prediction": "ək", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_4bacb623c471d36a", "reference": "ʤʌm", "prediction": "ʧ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_4bccaa116f68ee22", "reference": "ti tiɾɚ tɑɾɚ", "prediction": "k", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_4c454d43c7d86dbe", "reference": "lʊk æ mi", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_4c8ed3559366dd19", "reference": "dʌpɛgim", "prediction": "əkʧ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_4ccf93d989aa97be", "reference": "ɹed", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_4ce780b7c89bae46", "reference": "zu", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_4d6bf2e58b0700a6", "reference": "ɪz ðə tɑimɚ ɑmoʊs kʌmɪŋ ɑf", "prediction": "ɪs", "per": 0.9047619047619048, "cer": 0.9230769230769231}
+{"utterance_id": "U_4dc725f94bbef18b", "reference": "ʧɑp", "prediction": "æk", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_4e1e9ac9f54e14d6", "reference": "tæobə", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_4e4dafae9f27abd2", "reference": "ɑi don tɑlk tu ju", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_4e8f01a5874496aa", "reference": "hæmɚ", "prediction": "æ", "per": 0.75, "cer": 0.75}
+{"utterance_id": "U_4e99469b5eb301a2", "reference": "okei", "prediction": "k", "per": 0.75, "cer": 0.75}
+{"utterance_id": "U_4ea6df65b21b5c5e", "reference": "bejoi fɑkuʧɑi", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_4eba30282f1847f8", "reference": "meitəmoʊfik", "prediction": "æti", "per": 0.8181818181818182, "cer": 0.8181818181818182}
+{"utterance_id": "U_4f0d70f4c6eca78c", "reference": "ɛɫsː", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_4f5aecd77819f2c5", "reference": "tɑʊlnswotipo", "prediction": "t", "per": 0.9166666666666666, "cer": 0.9166666666666666}
+{"utterance_id": "U_4f78b3a8c978a28f", "reference": "smʊtə", "prediction": "ɑ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_4f98bfe2cf9582fc", "reference": "fɹɑg", "prediction": "ɪ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_502c5d12015c3008", "reference": "ɑi wʊd kɑl dʌ dɑktɚ", "prediction": "ææɪæ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_5111023bcc255b6c", "reference": "jæ dɚ ʤʌs slipɪŋ", "prediction": "s", "per": 0.9230769230769231, "cer": 0.9375}
+{"utterance_id": "U_51ab3fd881abdc3f", "reference": "ʃi dɪz nɑt lɛt pɛnkɛps", "prediction": "ɑə", "per": 0.9444444444444444, "cer": 0.9545454545454546}
+{"utterance_id": "U_51bfe13599ff1c13", "reference": "ðætsə geim", "prediction": "ɑɪd", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_51cb8afc91c41adb", "reference": "wɛn də tɑimɚ goʊz ɑf ðæt minz ɪts tɑim ə klin ʌp", "prediction": "ɪədɛiə", "per": 0.918918918918919, "cer": 0.9375}
+{"utterance_id": "U_51f0111c4801b815", "reference": "æn dʌ fɑɚmɚz teikɪŋ kɛɚ ʌv ɪt", "prediction": "ɪɑɪ", "per": 0.9130434782608695, "cer": 0.9310344827586207}
+{"utterance_id": "U_51ffb771a9ea484c", "reference": "ɑːn ʤækit", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_52298ec72b25ed6f", "reference": "m dɪs wʌn", "prediction": "ɪə", "per": 0.8571428571428571, "cer": 0.8888888888888888}
+{"utterance_id": "U_528f80eb09cba81e", "reference": "ʧːfʧɚnoʊpɑipei", "prediction": "ʧʧæk", "per": 0.8571428571428571, "cer": 0.8571428571428571}
+{"utterance_id": "U_52b094e6bc657fd6", "reference": "nijuːəl", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_52e9a75a45018795", "reference": "tɛl", "prediction": "ʧ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_5317c1dfb19c2498", "reference": "piː hm", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_5354bd0ed9a92e81", "reference": "ʧɪkɪn", "prediction": "ɪ", "per": 0.8, "cer": 0.8}
+{"utterance_id": "U_538c8e36fbaf3335", "reference": "wɛɚ ɑɚ wi nɑʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_539625c0404ce12a", "reference": "ʤuːs", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_53c4424f4138821b", "reference": "ðə kæ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_53d0cabe64382938", "reference": "ʧiz", "prediction": "i", "per": 0.6666666666666666, "cer": 0.6666666666666666}
+{"utterance_id": "U_53db51c672325472", "reference": "moɫt", "prediction": "ə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_53dd21cef7e30ce4", "reference": "jɛə ɑnd ɑi si ʌ beibi stɹoɫɚ ɑnd ə kɪd ɑnd ə dæd", "prediction": "əiəəkəɑ", "per": 0.8611111111111112, "cer": 0.8958333333333334}
+{"utterance_id": "U_5497c348606aec20", "reference": "jæ", "prediction": "æ", "per": 0.5, "cer": 0.5}
+{"utterance_id": "U_54ab61b0b62d4ce0", "reference": "ðæt gɑi goʊ ɹɑi hɪɹ", "prediction": "iɑɑ", "per": 0.8666666666666667, "cer": 0.8947368421052632}
+{"utterance_id": "U_54d24b053cb2b75d", "reference": "nɑʊne kənjɐʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_5563addf5e3dc39f", "reference": "ɪ zu", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_5592941bce57f67b", "reference": "hwɛʃ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_55b529db02d7b31e", "reference": "ə ʃɚː", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_55d00ed27cc049a6", "reference": "bʌk", "prediction": "ʌ", "per": 0.6666666666666666, "cer": 0.6666666666666666}
+{"utterance_id": "U_55efed51dea972f2", "reference": "æn dʌ gɚlz ɑɚ goɪn ɪn dʌ slɑid wʌs dɪs ɑi θiŋk ɪts ʌ ɑktopʊs", "prediction": "ædəkiæsəs", "per": 0.8913043478260869, "cer": 0.9166666666666666}
+{"utterance_id": "U_56e25a8a260b1971", "reference": "jɛ bʌt hi nidz tu liv", "prediction": "ə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_575f01cd25268639", "reference": "jæ noʊ dæsə dʌk", "prediction": "æd", "per": 0.8333333333333334, "cer": 0.8666666666666667}
+{"utterance_id": "U_578a8b2fbe2914b5", "reference": "ə pɪg", "prediction": "ə", "per": 0.75, "cer": 0.8}
+{"utterance_id": "U_57b5368f84a35cfa", "reference": "jɛə ɑi get hiɹ mɑiseɫf ɪn ðə mɑikɹəfoʊn ʤʌs bikʌz", "prediction": "æəæɑiisi", "per": 0.85, "cer": 0.8775510204081632}
+{"utterance_id": "U_5870989474af4db9", "reference": "dʌ bɚdz ɑ fɑɚɪn klɪklɪ", "prediction": "pætik", "per": 0.9444444444444444, "cer": 0.9545454545454546}
+{"utterance_id": "U_58b7223db488008a", "reference": "bɹʌɾɚ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_58d106f08c5702bd", "reference": "neθɪns", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_592cc874f2f3374f", "reference": "siː", "prediction": "i", "per": 0.6666666666666666, "cer": 0.6666666666666666}
+{"utterance_id": "U_594490ff713910dc", "reference": "tunebuʧiz", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_599b4b34b19a8bb0", "reference": "ou nou", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_59d6c94fce4e393c", "reference": "ɑn ʌmbɹɛlə ɑn ə bækpæk", "prediction": "ɑ", "per": 0.9444444444444444, "cer": 0.9545454545454546}
+{"utterance_id": "U_59fdd7470e684ab1", "reference": "stɹɛvəz dɔɹ", "prediction": "ʧ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_59ff22ec1b3a71ea", "reference": "tɑp nɑʊ wɛɚ wi ɑɚ nɑʊ", "prediction": "tækɑ", "per": 0.875, "cer": 0.9047619047619048}
+{"utterance_id": "U_5a4835f3de5d9389", "reference": "jɛə", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_5a6be27ffdf7c35e", "reference": "bʌt wʌs dɪs oɚ hɪɚ", "prediction": "əʌ", "per": 0.9285714285714286, "cer": 0.9444444444444444}
+{"utterance_id": "U_5a77bf7537c9f35b", "reference": "ɑi si ə klɑʊd", "prediction": "i", "per": 0.9, "cer": 0.9230769230769231}
+{"utterance_id": "U_5b275367bdf83d8b", "reference": "fɔʃ", "prediction": "ɑ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_5b537b49f17af16b", "reference": "mukbɑ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_5b81ab3b30e9bb69", "reference": "ʧeɪ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_5bb4fca8978c98b6", "reference": "goʊ hɛɫp ɑʊt ðə dɑktɚs əntɪl ju ɑɹ tu tɑijɚd", "prediction": "əbɑætæ", "per": 0.9142857142857143, "cer": 0.9318181818181818}
+{"utterance_id": "U_5be4af191ff88b29", "reference": "gɪvə", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_5be97b8c5f6d27f4", "reference": "ðʌ ɑɚnʤ wʌn", "prediction": "d", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_5c680668dd189a51", "reference": "ə vækjum", "prediction": "ʌ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_5c7a32c20ab6ee65", "reference": "dʌk", "prediction": "ʌ", "per": 0.6666666666666666, "cer": 0.6666666666666666}
+{"utterance_id": "U_5c866ee7a1eefd8b", "reference": "ɑi d wəsɪs hɪɚ", "prediction": "əwæ", "per": 0.9090909090909091, "cer": 0.9285714285714286}
+{"utterance_id": "U_5ccae532920701e3", "reference": "hɑldubəʧi", "prediction": "ɑʧ", "per": 0.7777777777777778, "cer": 0.7777777777777778}
+{"utterance_id": "U_5e164d406c99a6d4", "reference": "nɑʊ dʌ fɑɚmɚ kæn nɑt gɛɾit ɑʊt kəz ɪts tu tɑɚd ʌv gɛɾɪŋ ðʌ pipol ɑʊɾʌv dɛɚ", "prediction": "ɑɪɪdiɪ", "per": 0.9310344827586207, "cer": 0.9459459459459459}
+{"utterance_id": "U_5e34de0496fffe1e", "reference": "wi hæd tu stɑp plein ɑʊtsɑid kʌz ɪt ɹein tuː mʌʧ", "prediction": "æɑɑæə", "per": 0.9210526315789473, "cer": 0.9375}
+{"utterance_id": "U_5e7acc4c360a47a5", "reference": "ɪz ʌ sɚpɹɑiz", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_5ea85b1f5a892785", "reference": "wæmilɔdə", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_5edec59c5226311d", "reference": "ðʌ mæn ɪn ðʌ tɹʌk ɪz mɑi fænz ʌŋkol", "prediction": "ʧk", "per": 0.9629629629629629, "cer": 0.9714285714285714}
+{"utterance_id": "U_5edf793c0a6e2cb1", "reference": "stɑɚs", "prediction": "o", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_5f4361af9fe41822", "reference": "ənuk bɑu", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_5f9996a0b97f62fd", "reference": "bəwɑʊt", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_5ff401833a91289e", "reference": "fɪʃ", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_60055a2664b97b44", "reference": "dʌ hoɚ ðʌ hoɚs wʌz ɹɪɾɪn bɑi ðʌ bɔi", "prediction": "ʌiæk", "per": 0.9259259259259259, "cer": 0.9428571428571428}
+{"utterance_id": "U_6064914d8ee143d5", "reference": "ɑː", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_60bfe209be7eaef0", "reference": "æn nɑʊ dei gɪv hɪm ʌ nu ɑiskɹim æn hi hæz fɹɛnz nɛks tu hɪm", "prediction": "ɪisɪɑsək", "per": 0.8888888888888888, "cer": 0.9152542372881356}
+{"utterance_id": "U_616850c81a1fe111", "reference": "ɹʌf ɹʌf", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_619383689cff45c1", "reference": "dʌpɑʔkəkeɪs", "prediction": "ɑək", "per": 0.7272727272727273, "cer": 0.7272727272727273}
+{"utterance_id": "U_61e09eb68674a4e7", "reference": "ə hɑʊs", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_62bd7a1239bbbb1b", "reference": "ə duoːg", "prediction": "d", "per": 0.8333333333333334, "cer": 0.8571428571428571}
+{"utterance_id": "U_62c50ce872965b7c", "reference": "hɛloʊ pɹɪnsɪpol ɑi kænɑt fɑin mɑi ʃuz", "prediction": "əʌpɪæɪ", "per": 0.9032258064516129, "cer": 0.918918918918919}
+{"utterance_id": "U_633cb844bd5d9e93", "reference": "ɑɚ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_6363a27bfb5b0a97", "reference": "bʌɾəɹflɑi", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_63c2b6fe98e5112d", "reference": "dɹʌm ən dɹʌmstɪks", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_6456d0b7945aa3d6", "reference": "hɑʊs", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_649de44614660684", "reference": "tɛld", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_65bf308b9178d8bc", "reference": "tʌk", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_65cb8a427182f3ef", "reference": "ɑim gənə pʌ mɑi ʤækɪɾ ɑn", "prediction": "ə", "per": 0.9473684210526315, "cer": 0.9583333333333334}
+{"utterance_id": "U_6658df2fa5cb41a2", "reference": "nɑʊ bof ʌv dɛm fɛl", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_667641edb71351cc", "reference": "sɪstɚ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_6679e78dac92d1c9", "reference": "tibɑʔdətɐʊnsi", "prediction": "ək", "per": 0.9230769230769231, "cer": 0.9230769230769231}
+{"utterance_id": "U_66a8c3f28ca4c632", "reference": "flɑi", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_66d775ac1584cf2f", "reference": "noʊ noʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_6703c9e441189633", "reference": "soʊ ɛvɹibɑɾi noʊz æt dɪs steiz ɪn dɪs ɹum", "prediction": "æɑɪi", "per": 0.9090909090909091, "cer": 0.926829268292683}
+{"utterance_id": "U_67f0329eafe410ee", "reference": "ʌ hɑɚs", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_6816df51f18b9e89", "reference": "bæmtimʊtɔʃ", "prediction": "ææk", "per": 0.9, "cer": 0.9}
+{"utterance_id": "U_682cc305471ca15a", "reference": "glæsɪs", "prediction": "æ", "per": 0.8333333333333334, "cer": 0.8333333333333334}
+{"utterance_id": "U_68e80df4bfe93df2", "reference": "gumbəʧɑitɑʊ", "prediction": "kʧt", "per": 0.8181818181818182, "cer": 0.8181818181818182}
+{"utterance_id": "U_6906e4f16da70071", "reference": "ðʌ kæt", "prediction": "kk", "per": 0.8, "cer": 0.8333333333333334}
+{"utterance_id": "U_693fb98cb3282e7f", "reference": "ðə dɑg mɑɪ ðə ʧɹi ɪn ðə pɚl pæ ʤn tɔijə", "prediction": "tæʧɪɑæ", "per": 0.896551724137931, "cer": 0.9230769230769231}
+{"utterance_id": "U_69635bb4bcf99385", "reference": "ʌ lif bʌt dont don ʃoʊ mi dʌ dʌ lɑst wʌn", "prediction": "əəs", "per": 0.9666666666666667, "cer": 0.975}
+{"utterance_id": "U_696b95ce91884d41", "reference": "æn ivɪn dɪs pɪg", "prediction": "æ", "per": 0.9166666666666666, "cer": 0.9333333333333333}
+{"utterance_id": "U_69bcf86ed56eda09", "reference": "ʃ snɪlɪ kɛt", "prediction": "ɑ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_69c0b05b9e5dcc06", "reference": "də smɔl kɑɹ gɑt hɪt bɑi di tɹʌk goʊɪŋ tu fæst gət ɹei", "prediction": "bɪæətkʧæ", "per": 0.8780487804878049, "cer": 0.9056603773584906}
+{"utterance_id": "U_6a92b9d760e1a6fb", "reference": "ə dʌk", "prediction": "ʌ", "per": 0.75, "cer": 0.8}
+{"utterance_id": "U_6a9fea4dd200405d", "reference": "əjəɹ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_6aa2042ac23d0a8f", "reference": "kuʧeinbæp", "prediction": "t", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_6b46adc62627c2db", "reference": "ʌm ʌ lɑit", "prediction": "ə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_6b668d92ed5cd8dc", "reference": "dɑd", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_6b86a45843efd5a5", "reference": "tɹoɛ dəzhi noʔ", "prediction": "i", "per": 0.9166666666666666, "cer": 0.9285714285714286}
+{"utterance_id": "U_6b8d986817a6cc81", "reference": "jæ", "prediction": "k", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_6b9335ff94549b40", "reference": "boʊbæfk", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_6bab97e1921ee12f", "reference": "bɑːk", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_6bc8855e28e2f451", "reference": "bəgubʊ", "prediction": "k", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_6bff0b7bb3bfe94e", "reference": "oʊ ðɚ ɪt ɪz", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_6c29faf3d774ec8d", "reference": "ə teɪbo", "prediction": "ət", "per": 0.6666666666666666, "cer": 0.7142857142857143}
+{"utterance_id": "U_6c2b6e3a9f681c42", "reference": "doɹ", "prediction": "dɪ", "per": 0.6666666666666666, "cer": 0.6666666666666666}
+{"utterance_id": "U_6c6ea2e2108f1945", "reference": "sigɪ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_6ca95301f87a5bde", "reference": "ðe ʧɪlʤɹɪn kʌn pleɪjl lɑɪk e li tu kwɑɪ", "prediction": "əʧɑæ", "per": 0.9354838709677419, "cer": 0.9487179487179487}
+{"utterance_id": "U_6d25b87752c1ac4a", "reference": "ðʌ dɑg", "prediction": "t", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_6d4064b2425fdb1c", "reference": "wʌz ðʌ bɔi dowɪ ðʌ fɹɛnd wɪθ ðʌ muvi", "prediction": "i", "per": 0.9642857142857143, "cer": 0.9722222222222222}
+{"utterance_id": "U_6d6e2bb2866528a6", "reference": "ðɚz tu mʌʧ ɑnɪməɫz", "prediction": "ʌɪ", "per": 0.8666666666666667, "cer": 0.8888888888888888}
+{"utterance_id": "U_6e00ae93d995b459", "reference": "wʌfɑi kip duɪn ɪt ɹɑit ɑɚ wi gɑnə gɪvɚ ɑnʌðɚ wʌn", "prediction": "ɪdəɪ", "per": 0.9210526315789473, "cer": 0.9375}
+{"utterance_id": "U_6e3a041d360942ca", "reference": "lʊk ðʌ dɑg", "prediction": "æə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_6e3f0b12b5dfd67f", "reference": "ɑɪ ɛvɹideɪ ɪn mɑɪ klæsɹum ɑɪ sɪt ɪn mɑɪ zibɹə", "prediction": "ɑædəksɪəz", "per": 0.8333333333333334, "cer": 0.8666666666666667}
+{"utterance_id": "U_6ebc003902441367", "reference": "siːnt siː", "prediction": "k", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_6ece9d86aae878ba", "reference": "gupəʧɑɪtɑʊ", "prediction": "kiʧ", "per": 0.9, "cer": 0.9}
+{"utterance_id": "U_6f7397c4a2119d6a", "reference": "ɑːnd ɑi si ə bɔi kɹɑiŋ ən ɑi ə siː ə tɹʌk ən ɑi si ə ɑis kɹim ən ɑi si ə bækpæk", "prediction": "æisəɑsi", "per": 0.8947368421052632, "cer": 0.9240506329113924}
+{"utterance_id": "U_6f7dfe171c4fd06b", "reference": "mɚbɔiditeif", "prediction": "ɑæii", "per": 0.8181818181818182, "cer": 0.8181818181818182}
+{"utterance_id": "U_6fcc2a47e5dceae8", "reference": "ɑi si ɑis kɹim ʌ bɔi æn ɑis kɹim iɾɪŋ ɑiskɹim wɛ hi plein hɪz tɔi", "prediction": "ɪɑsəwɑiiæ", "per": 0.88, "cer": 0.9076923076923077}
+{"utterance_id": "U_6fdbb9aa50557213", "reference": "wɑi dʌ tɹæktɚz ɑmoʊs hɪɚ", "prediction": "ɑis", "per": 0.85, "cer": 0.875}
+{"utterance_id": "U_6ff671f25ddac4e7", "reference": "əwɑi", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_701835ec5de914dc", "reference": "jæ", "prediction": "ɑ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_7031a7cb528e87b8", "reference": "lʊk ɪt fɛl", "prediction": "ədə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_705c5c9712485be3", "reference": "nɑʊ kæn ɑi hæv ənʌdɚ stɪkɚ", "prediction": "dəəds", "per": 0.8571428571428571, "cer": 0.8846153846153846}
+{"utterance_id": "U_7061cbab10f3c902", "reference": "fʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_717b48e6361ea0b1", "reference": "soʊt", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_71a639180aa2e1fa", "reference": "f ɹɛd bɑl wz kɪkd ɪntə ðə stɹɪt bɑɪ ə ɹɛd bɔɪ", "prediction": "æbtkiɑɑ", "per": 0.9117647058823529, "cer": 0.9333333333333333}
+{"utterance_id": "U_7209b73287ac7372", "reference": "ɛləfɪt", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_72ed06d5ae8cf260", "reference": "t bifkoɚbɑʊnvɚ", "prediction": "kb", "per": 0.8461538461538461, "cer": 0.8571428571428571}
+{"utterance_id": "U_731787f9eaa53bd8", "reference": "wi gɑnə stɪk ɪfɑn leiɾɚ", "prediction": "dɪsɑi", "per": 0.8421052631578947, "cer": 0.8695652173913043}
+{"utterance_id": "U_735a3db1f864f0ea", "reference": "muhiː bod", "prediction": "æə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_738766337e12a587", "reference": "ɑi hæ hæv mɑi ʤækiθ ɑn ən ɑim soʊ kjut", "prediction": "æɑɑd", "per": 0.896551724137931, "cer": 0.9210526315789473}
+{"utterance_id": "U_73b5ba2a82ae3e3f", "reference": "əm ɑi si ʧɹiːz ɑn ə bʌg", "prediction": "əæiiə", "per": 0.7647058823529411, "cer": 0.8260869565217391}
+{"utterance_id": "U_73d05b952c8f75ac", "reference": "dupæ dɪtɑn huɹul ɑn", "prediction": "əkææ", "per": 0.9375, "cer": 0.9473684210526315}
+{"utterance_id": "U_73d9258ef781d237", "reference": "wɛn ju fɪnɪʃ wɑʃɪŋ jɚsɛlf ju juz ɪt tu dɹɑi jɚsɛlf", "prediction": "əɑiæsəɪdə", "per": 0.9, "cer": 0.92}
+{"utterance_id": "U_74038cb08065d4a8", "reference": "ɪf wi kip goʊɪŋ æt ðæt kliʁ ɪtəɫ bɹeik", "prediction": "ə", "per": 0.9666666666666667, "cer": 0.9736842105263158}
+{"utterance_id": "U_74b8c9a40560ba7d", "reference": "wʌt də fəɹ ɪ næ", "prediction": "ɑə", "per": 0.9090909090909091, "cer": 0.9333333333333333}
+{"utterance_id": "U_74eaa2575f6ef732", "reference": "mɑi feivɹɪt kʌlɚ ɑɹ pɪŋk ən pɑpəɫ ɛniweiz", "prediction": "iɪə", "per": 0.9117647058823529, "cer": 0.926829268292683}
+{"utterance_id": "U_7547e73b2dd5f11e", "reference": "lɑiɪn", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_762ca790cb10c64c", "reference": "oʊpt", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_769c24f0bdf5fb6a", "reference": "owɑ hu wəhɛn", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_76b30198840f11f3", "reference": "æn goʊ ɛvɹiwɛɚ ænd", "prediction": "i", "per": 0.9333333333333333, "cer": 0.9444444444444444}
+{"utterance_id": "U_76b841aef4833db2", "reference": "ʌ dʌk", "prediction": "əd", "per": 0.75, "cer": 0.8}
+{"utterance_id": "U_76c804d9f78616cf", "reference": "ɑi θiŋk dɪʃ ɪz foɚ dʌ dɑg", "prediction": "əɑ", "per": 0.9473684210526315, "cer": 0.96}
+{"utterance_id": "U_76cc042a284b04fa", "reference": "jæ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_77b28da069ad29cb", "reference": "boʊt", "prediction": "ʊt", "per": 0.5, "cer": 0.5}
+{"utterance_id": "U_77e39962507a8c38", "reference": "ə fiŋgɚs", "prediction": "ʌ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_78145d0566b7341b", "reference": "hiɚ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_784250db652cb44a", "reference": "poɪnt ɪt", "prediction": "ɪ", "per": 0.8571428571428571, "cer": 0.875}
+{"utterance_id": "U_7862c5359c204b0b", "reference": "ɑi θɪŋk ɑf nɑʊ", "prediction": "i", "per": 0.9090909090909091, "cer": 0.9285714285714286}
+{"utterance_id": "U_788f26b1b2405737", "reference": "tuf to goɪŋ bɛnɛt", "prediction": "k", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_7905f92057efe32c", "reference": "hɛloʊ kæmɚə ɑm tɑkɪŋ tu jukʌz ɑi nid tu tɑk tu də pɹɪnsɪpol", "prediction": "æʌɪtə", "per": 0.9148936170212766, "cer": 0.9322033898305084}
+{"utterance_id": "U_79e284e4ea2a482a", "reference": "oʊkei", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_7ab9f68b9a4390d8", "reference": "ɑn ɑi si əm ə bɔɫ stɑndɪŋ ɑn ə ʧɹi ən ɑi si skuɾɚz ən ɑi si ðə doɹ ən ɑi si ə bɑisɪkʌɫ", "prediction": "ɪɑæsuədɑəæ", "per": 0.873015873015873, "cer": 0.9069767441860465}
+{"utterance_id": "U_7adb51fc928c134b", "reference": "bʌ dæɾi ɪz ɪn ðə kɑmɹə tuː", "prediction": "ədɪ", "per": 0.9, "cer": 0.9230769230769231}
+{"utterance_id": "U_7b3525ed35e6e5cc", "reference": "vɛʧtəbəɫ", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_7b86f7f790b2ad44", "reference": "phɪʃ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_7ba599e3e20c17c8", "reference": "ɑɚ wi gɑnə plei ðæt geim", "prediction": "diəkɛæi", "per": 0.7894736842105263, "cer": 0.8333333333333334}
+{"utterance_id": "U_7beed92cf6e5ca3f", "reference": "pænkeik", "prediction": "æk", "per": 0.7142857142857143, "cer": 0.7142857142857143}
+{"utterance_id": "U_7c1b92b4a11d2f0a", "reference": "kɛɚət", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_7c2b4eabe717bb9d", "reference": "ɪnʃɛ ʌv dɹɪŋk hɪz mɪlk hi eit dʌ gɹin æpol", "prediction": "kkwikæ", "per": 0.8787878787878788, "cer": 0.9047619047619048}
+{"utterance_id": "U_7ce5cdb41ebc87df", "reference": "pæt", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_7e417a7357288632", "reference": "seiloʊ ɑi jə", "prediction": "s", "per": 0.9, "cer": 0.9166666666666666}
+{"utterance_id": "U_7e4aab3a7070aa2c", "reference": "ɑi lʌv swɪŋs", "prediction": "ɪʌ", "per": 0.9, "cer": 0.9166666666666666}
+{"utterance_id": "U_7ec17c4d32b1f367", "reference": "wɛn ɑi nid tu tɛl ɑi nid tu tel dʌ pɹɪnsɪpol", "prediction": "ɪɪə", "per": 0.9411764705882353, "cer": 0.9545454545454546}
+{"utterance_id": "U_7eed772af0226ccd", "reference": "nɑʊbək bɑikɔibi", "prediction": "əii", "per": 0.7857142857142857, "cer": 0.8}
+{"utterance_id": "U_7f522e1cb327d05e", "reference": "bʌkɑt", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_7f745339a2ee616b", "reference": "hiz dei boʊf ɪn dʌ sisɑ", "prediction": "ɪɪ", "per": 0.9444444444444444, "cer": 0.9565217391304348}
+{"utterance_id": "U_7f84fb3c97726d06", "reference": "fʊt", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_7fa406f826157661", "reference": "vʌtubɑʧɔi", "prediction": "tdɑ", "per": 0.7777777777777778, "cer": 0.7777777777777778}
+{"utterance_id": "U_7fb3d2277b09a9a5", "reference": "ðæt ɪ goʊz hɪɹ", "prediction": "æs", "per": 0.9090909090909091, "cer": 0.9285714285714286}
+{"utterance_id": "U_7ff37f8b0e1996c7", "reference": "ɑi hæv ʌ slɑid ɪn mɑi ɪn mɑi pleigɹɑʊn", "prediction": "æsii", "per": 0.8666666666666667, "cer": 0.8947368421052632}
+{"utterance_id": "U_80ab5b9bb8685be5", "reference": "lʊk ɪt wɑkɪŋ æn wɑkɪŋ", "prediction": "wæ", "per": 0.8823529411764706, "cer": 0.9047619047619048}
+{"utterance_id": "U_80adb82ef258a97c", "reference": "ðʌ mæn ɪno ʧə donoʊ fɹoʊ mɑi kɑ tənku", "prediction": "əʧətɑɪ", "per": 0.896551724137931, "cer": 0.918918918918919}
+{"utterance_id": "U_8141fc52ab7cd7ed", "reference": "wi nid tu fɑɾo dɪs", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_822bfded037e2c74", "reference": "flɪptɑʊ", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_8276af54d769f16b", "reference": "ʧɛl f in", "prediction": "ʧkiɑ", "per": 0.6666666666666666, "cer": 0.75}
+{"utterance_id": "U_82cef54ef94e8e61", "reference": "ɑi ɑɫɹɛɾi noʊ ɑi hæv blu wɑiz", "prediction": "ɪi", "per": 0.9565217391304348, "cer": 0.9655172413793104}
+{"utterance_id": "U_82fb2f472d992c3b", "reference": "vu fɑʊ bɔint", "prediction": "ækik", "per": 0.9, "cer": 0.9166666666666666}
+{"utterance_id": "U_833b1567ec05b770", "reference": "ɹæbɪ", "prediction": "æ", "per": 0.75, "cer": 0.75}
+{"utterance_id": "U_8382375fe2a2a6b6", "reference": "æn ivɪn ðʌ jæk ʌp bʌt meibi meibi dɛɚ gɑnə kʌm bæk", "prediction": "ædædæiidəkə", "per": 0.8205128205128205, "cer": 0.86}
+{"utterance_id": "U_838bd61dea457653", "reference": "jɛ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_83af4c51dacf9b93", "reference": "ʧ owæ t hɪ mo", "prediction": "æɪ", "per": 0.7777777777777778, "cer": 0.8461538461538461}
+{"utterance_id": "U_83e88ed31dc6c308", "reference": "nɑif", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_844085f90592ae84", "reference": "bʌt ɑi nid dʌ tu tu tu goʊ hɪɚ", "prediction": "i", "per": 0.9545454545454546, "cer": 0.9666666666666667}
+{"utterance_id": "U_845d08b889955048", "reference": "ðɪs ɪz fʌn", "prediction": "k", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_8467dacff43328f1", "reference": "bɹʌʃiŋ hɚ heɚ", "prediction": "ɑ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_84baa69d6f7bd929", "reference": "bəlɪt", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_8507ec5f34547e85", "reference": "pʌzəɫ", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_856702a7de4cd55c", "reference": "hnlɚbod", "prediction": "ə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_863bf593842af386", "reference": "ɑn deɹz wʌn tə θɹi foɹ fɑiv", "prediction": "ɪsiæ", "per": 0.9523809523809523, "cer": 0.9629629629629629}
+{"utterance_id": "U_8683923d95442a4b", "reference": "jæ", "prediction": "æ", "per": 0.5, "cer": 0.5}
+{"utterance_id": "U_86c566f2a75e9063", "reference": "jɛ ɑi gɑfə gɛdə hɑɚs", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_86c58b0ed67cf93b", "reference": "wʌn tu θɹi foɚ fɑɪv sɪks sɛvn", "prediction": "iiæ", "per": 0.9565217391304348, "cer": 0.9655172413793104}
+{"utterance_id": "U_873711f10c0fcf01", "reference": "fɑʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_8758141493421aa6", "reference": "spɑidɚ", "prediction": "ɑi", "per": 0.6666666666666666, "cer": 0.6666666666666666}
+{"utterance_id": "U_875bfc804960ae1c", "reference": "guwl", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_87bb19ebc346c8cd", "reference": "ʃʌv ʃʌvəɫ", "prediction": "wə", "per": 0.875, "cer": 0.8888888888888888}
+{"utterance_id": "U_87d982afa7deb8bb", "reference": "ðʌ ʧɪldɚin kæn plei bʌt ðʌ nd tu bi kwɑit", "prediction": "ʧɑkæ", "per": 0.90625, "cer": 0.926829268292683}
+{"utterance_id": "U_87eee9caf1e7d971", "reference": "ɪz vɛɹi fɑɚ", "prediction": "si", "per": 0.8888888888888888, "cer": 0.9090909090909091}
+{"utterance_id": "U_88240cc63cbc852a", "reference": "wʌz də bɔwe wɪs hɪz fɹɛndz gɪɪn ðə muvi", "prediction": "əɑk", "per": 0.967741935483871, "cer": 0.9743589743589743}
+{"utterance_id": "U_883891055786e1ce", "reference": "bɑ", "prediction": "d", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_8875a5edd978a64d", "reference": "jæ bʌt wʌs dɪs stɪk foɚ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_88763c2c405d989e", "reference": "hmɑlbəkɑɪtid", "prediction": "ɪk", "per": 0.9166666666666666, "cer": 0.9166666666666666}
+{"utterance_id": "U_88968056f56a0c5f", "reference": "goʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_88deb03e704f4b11", "reference": "wʊt", "prediction": "ə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_891a504bf9522be2", "reference": "jɛ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_8921844e81f89f1c", "reference": "fɪʃ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_89a85e31c5847589", "reference": "nenoemɑjɚd", "prediction": "i", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_89c1666fdf2b3549", "reference": "flujoɹeɪzbæbuʧeɪ", "prediction": "ɪkɪʧ", "per": 0.875, "cer": 0.875}
+{"utterance_id": "U_89d2e2dcbd6b39d3", "reference": "dɛɚz əlɑv ænɪmolz ju hæv", "prediction": "ɑdæ", "per": 0.9, "cer": 0.9166666666666666}
+{"utterance_id": "U_89e94a8f9d304466", "reference": "kwæk", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_8a0f670c9dc51dab", "reference": "ənlɛ indɹiə weiks ʌp no ʃi wɪl be wet", "prediction": "əɑæɑiæɑi", "per": 0.896551724137931, "cer": 0.918918918918919}
+{"utterance_id": "U_8a7e19a421bff9a2", "reference": "bɑːk bɑːk", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_8aa5419d7c61114d", "reference": "ɑː", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_8b0aae23ce8e8e7b", "reference": "dʌk", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_8b489fc01843fada", "reference": "diʧɑpənpɹənəkdi", "prediction": "ʧæ", "per": 0.9333333333333333, "cer": 0.9333333333333333}
+{"utterance_id": "U_8c0602765e8d16c5", "reference": "m dɪs wʌn", "prediction": "ɪ", "per": 0.8571428571428571, "cer": 0.8888888888888888}
+{"utterance_id": "U_8c2475150bed7071", "reference": "tɑigɚ", "prediction": "ɑ", "per": 0.8, "cer": 0.8}
+{"utterance_id": "U_8c722cc06891c5d4", "reference": "wɑiz ðɛɚ wʌn dɑg æn wʌn kɪdɪŋ", "prediction": "wisææ", "per": 0.8695652173913043, "cer": 0.896551724137931}
+{"utterance_id": "U_8ceb47619984cb4a", "reference": "bɪg", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_8d5dab6e074468e2", "reference": "ɑis", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_8d9f5813d170a9a1", "reference": "jɛloʊ", "prediction": "k", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_8e49cdf6aae18e02", "reference": "m", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_8e5092acd90d5c15", "reference": "hi wʊdənt goʊ wɪð hɪz ʃɪstə bəf hi wəz tɑd", "prediction": "ɑbʌ", "per": 0.9696969696969697, "cer": 0.9761904761904762}
+{"utterance_id": "U_8e71f3d35c905cc1", "reference": "ðʌ bɑl wʌz kɪkt ɪntu ðʌ stɹit bɑi ʌ ɹɛd bɑi ʌ bɔi", "prediction": "ətʧkiɑ", "per": 0.918918918918919, "cer": 0.9387755102040817}
+{"utterance_id": "U_8e7d08de077e88d6", "reference": "ɑim koʊɫd", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_8e8d719720f0d6e5", "reference": "ʧheɪneɪmnuwə", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_8f5696f3b3b3cde9", "reference": "ɪvɪn noʊ ʃi hæd ɑɫʝɛdi iʔən bɹɛkfɪʃt hɚ fɑðɚ meid hɚ ə snæk", "prediction": "ɛɑ", "per": 0.9574468085106383, "cer": 0.9661016949152542}
+{"utterance_id": "U_8f58ebda34733859", "reference": "æpəɫ", "prediction": "tə", "per": 0.75, "cer": 0.75}
+{"utterance_id": "U_8f5a11eb08619f97", "reference": "hiz kʌpeːsɪnəɫk", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_8fbf33ae3956adc5", "reference": "gu ʧɑi fəlun tə", "prediction": "ɪə", "per": 0.9166666666666666, "cer": 0.9333333333333333}
+{"utterance_id": "U_8ff9ae0db157b655", "reference": "jæ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_9030403c62b607f6", "reference": "ɑː", "prediction": "ə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_90473492879e124d", "reference": "kʌz ɑ wəz slipiŋ", "prediction": "əi", "per": 0.8461538461538461, "cer": 0.875}
+{"utterance_id": "U_90dd9cc507ec0fd6", "reference": "hɛloʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_91841e7226b10f60", "reference": "həboʊtuɹeis", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_923d9f0c6843bda3", "reference": "smɑl blæk kɪtɪn dɪs wʌn wɑit dɛɚ dʌ bi", "prediction": "ɑdɪ", "per": 0.9, "cer": 0.9210526315789473}
+{"utterance_id": "U_9244424daad7f07f", "reference": "dæənd", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_9329edd3b4f9b4e3", "reference": "nɑʊ hi hæv tu oʊpɪn ʌ doɚ æn gɪt ɪn dʌ hɑʊs", "prediction": "əɪd", "per": 0.9375, "cer": 0.9534883720930233}
+{"utterance_id": "U_93418c33b3540ba7", "reference": "fɪʃ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_93724b6f8bc2cbc1", "reference": "ə ʤɚɹæf", "prediction": "əd", "per": 0.8333333333333334, "cer": 0.8571428571428571}
+{"utterance_id": "U_939159ff5604022e", "reference": "tiʧɚ", "prediction": "i", "per": 0.75, "cer": 0.75}
+{"utterance_id": "U_93cba0084f7cb955", "reference": "pleit æn fɔk ən nɑif", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_93e5e80ae8b1a2a2", "reference": "gæle", "prediction": "d", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_94c5ca95613e6f59", "reference": "kɔɹʧeppi", "prediction": "ɛ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_94e0d772051d7c21", "reference": "uhi bæː", "prediction": "æbi", "per": 0.8333333333333334, "cer": 0.8571428571428571}
+{"utterance_id": "U_94e4995955cf44fb", "reference": "dætɪ", "prediction": "i", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_9513c7df4dfa7867", "reference": "kʌz dʌ tɹi kʌz pɑɚt ʌv dʌ livz ɑɚ bɹoʊkɪn", "prediction": "ɪəɑəəə", "per": 0.96875, "cer": 0.975609756097561}
+{"utterance_id": "U_952d4c7ab4f14ade", "reference": "deɹ ɪt ɪzː", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_958fedf2737b05bc", "reference": "noʊ hi mɚid di do", "prediction": "əə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_95b0b75edfa9dc0b", "reference": "ə hænd", "prediction": "ʌ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_95c083e72debf80d", "reference": "bʌt dæɾi ɪz ɪn ðə kɑmɹə tuː", "prediction": "əɪd", "per": 0.9523809523809523, "cer": 0.9629629629629629}
+{"utterance_id": "U_95e12d9582110126", "reference": "wʌn tu θɹi fə fɑiv sɪks sɛvɪn", "prediction": "wiʧæɪ", "per": 0.8695652173913043, "cer": 0.896551724137931}
+{"utterance_id": "U_95f0d765095dd270", "reference": "kɑɹ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_96863d18da1c8962", "reference": "ʌ ʃuleis", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_96b8b649ac950eb2", "reference": "bʊk", "prediction": "ʌ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_96da7d7996f6e95b", "reference": "ɪts geɪŋ dɑʊkɚ", "prediction": "ɪ", "per": 0.9166666666666666, "cer": 0.9285714285714286}
+{"utterance_id": "U_96eb5ebf5ac9d8fc", "reference": "ðə fæmli wʊl nɑt bi gɔwɪn ɑn veɪkeɪʃɪn ɪntɪ ɪz stɑn ɪn ʤun", "prediction": "ɑɪɪiæək", "per": 0.9347826086956522, "cer": 0.9482758620689655}
+{"utterance_id": "U_9715b997e0bc8822", "reference": "kæp", "prediction": "æ", "per": 0.6666666666666666, "cer": 0.6666666666666666}
+{"utterance_id": "U_97238a28f5595f13", "reference": "ləkhɑitpeivomed", "prediction": "iɑi", "per": 0.8666666666666667, "cer": 0.8666666666666667}
+{"utterance_id": "U_973267b2dbd561f1", "reference": "koɚʧif pli", "prediction": "ʌʧɪ", "per": 0.8888888888888888, "cer": 0.9}
+{"utterance_id": "U_9736fec753d51671", "reference": "ɑi si ə tɛɾibeə ʌndə ðə slɑid", "prediction": "əəɑɪ", "per": 0.8695652173913043, "cer": 0.896551724137931}
+{"utterance_id": "U_975a437e2a3d555d", "reference": "ɹæbɪt", "prediction": "æ", "per": 0.8, "cer": 0.8}
+{"utterance_id": "U_9782dbca52bc58f8", "reference": "wədə ju wɑn tu du ætɚ ɹidɪn dɪz bʊ", "prediction": "əəækə", "per": 0.8846153846153846, "cer": 0.9117647058823529}
+{"utterance_id": "U_97a820a0a5ac0581", "reference": "hən gugu vəʧijens hɛ", "prediction": "ɑətʧʧ", "per": 0.8823529411764706, "cer": 0.9}
+{"utterance_id": "U_97f5e225a811a52c", "reference": "də ʧedɹʌn θə θwɛi dei ned bi kwɑət təmbəɹ", "prediction": "ʧk", "per": 0.9393939393939394, "cer": 0.9512195121951219}
+{"utterance_id": "U_982453548e173100", "reference": "nːp", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_984435c3164c65a5", "reference": "vəgu bɚʧi", "prediction": "ə", "per": 0.875, "cer": 0.8888888888888888}
+{"utterance_id": "U_98880e01e16060a3", "reference": "də doɚ", "prediction": "ɪ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_98f1b3c970de72ed", "reference": "bɛd", "prediction": "k", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_98f5f5b1e489b36c", "reference": "dændiskoʊp", "prediction": "tbɑ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_9924d2189639fb88", "reference": "ivɪn dɪs kɑʊ", "prediction": "iə", "per": 0.9, "cer": 0.9166666666666666}
+{"utterance_id": "U_993370ac2bbe0362", "reference": "ðə ʧɪɫdɹɪn kən plei bʌt ðei nid tə bi kwɑiɪt", "prediction": "əʧk", "per": 0.9142857142857143, "cer": 0.9318181818181818}
+{"utterance_id": "U_993f19cbd57f4612", "reference": "vækjum", "prediction": "æ", "per": 0.8333333333333334, "cer": 0.8333333333333334}
+{"utterance_id": "U_994b04e6dc553bd8", "reference": "ɪt gɑɾ ɑʊ dæs ə ʧɹʌk", "prediction": "ədʌiʧ", "per": 0.8666666666666667, "cer": 0.9}
+{"utterance_id": "U_996b91f44fbd4e7a", "reference": "ɫ ɪɬ ʁ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_99740b0d9387584a", "reference": "əndɔɑi", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_99aefeac399b3f0d", "reference": "ɔl", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_99d30490bacf2c5e", "reference": "kʌʧidhi", "prediction": "ʧi", "per": 0.7142857142857143, "cer": 0.7142857142857143}
+{"utterance_id": "U_9a246414062afa6c", "reference": "ɪt gou ɛvɹiwɛɚ", "prediction": "ə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_9a3943f524c5418c", "reference": "pɹɪnsɛs", "prediction": "ɪ", "per": 0.8571428571428571, "cer": 0.8571428571428571}
+{"utterance_id": "U_9a4e04d70e279ce2", "reference": "ʧɑʊbə dəsin", "prediction": "ædæ", "per": 0.9, "cer": 0.9090909090909091}
+{"utterance_id": "U_9a7f5e8648a6fafd", "reference": "deɹɑik bɔl wɐz hɛbuləʃkɛ ɑi ə vɛɹi boɪ", "prediction": "ɑ", "per": 0.967741935483871, "cer": 0.9736842105263158}
+{"utterance_id": "U_9abf0d9c3fa416f6", "reference": "bit", "prediction": "k", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_9ac57b0bc2b644ff", "reference": "wiv ɪ hɑʊ ɪd ɪz", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_9ac84b6a52525ff1", "reference": "tɪkɚ", "prediction": "ɪ", "per": 0.75, "cer": 0.75}
+{"utterance_id": "U_9aefd337dbc0df9a", "reference": "flɑk", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_9afe4ff1ee938d3b", "reference": "tɚki", "prediction": "s", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_9b93533b364b009e", "reference": "di ol nɑt bi goɪŋ ɑn ði vikeʃɪn tɪl ɑʊt ʌntɪl skulz ɑʊt ɪn ʤun", "prediction": "æəækæpəkʌ", "per": 0.9583333333333334, "cer": 0.967741935483871}
+{"utterance_id": "U_9bb625d7ce8de5e5", "reference": "ə nɑɪf", "prediction": "əɑi", "per": 0.6, "cer": 0.6666666666666666}
+{"utterance_id": "U_9c13bd225a5ade6f", "reference": "ʌ ʧɪkɪŋ", "prediction": "əʧɪʌ", "per": 0.6666666666666666, "cer": 0.7142857142857143}
+{"utterance_id": "U_9cb7a352c1663159", "reference": "wɑt du ju wɑn tə du æfto wɪ nɪl ðɪs bʊk", "prediction": "ətɑɑækə", "per": 0.896551724137931, "cer": 0.9230769230769231}
+{"utterance_id": "U_9d0e796e9fac71fa", "reference": "toʊnə", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_9d118afc8d6eef1f", "reference": "wiɔf keifik", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_9d7fe6a652e91705", "reference": "ɑi tɑkɪŋ tu ʌ ɹeijoʊ", "prediction": "ɑæit", "per": 0.875, "cer": 0.9}
+{"utterance_id": "U_9d85668357de9250", "reference": "uuvəgubəʧinz", "prediction": "æpəʧ", "per": 0.8333333333333334, "cer": 0.8333333333333334}
+{"utterance_id": "U_9d8b73d0f055864f", "reference": "geit", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_9d9c1f8fbd3f4032", "reference": "ɑi lʊk kjut", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_9dde56da7a048e84", "reference": "ʃi duz nɑʔ bɪk pænkeɪks", "prediction": "æk", "per": 0.8947368421052632, "cer": 0.9130434782608695}
+{"utterance_id": "U_9e143eaecf3f8eaf", "reference": "oʊkeɪ", "prediction": "ʌ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_9e26ce3eb835459d", "reference": "goʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_9e765a532e8ce0be", "reference": "kəʧubɑp", "prediction": "td", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_9ecd178cc9e33fdf", "reference": "pɹɑbli hi fɛɫ", "prediction": "dɪiæ", "per": 0.9090909090909091, "cer": 0.9230769230769231}
+{"utterance_id": "U_9ef36934102d9905", "reference": "nɑʊ ʌ wʌs dɪs", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_9ef51f9189c78c90", "reference": "dondɛt ve ɑɚ sei nɛt", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_9ef91328ba09faf7", "reference": "jæ", "prediction": "ɪ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_9f0e533285a71d42", "reference": "lʊk ɪts gɑnə fɑli gɛn", "prediction": "ɪsəə", "per": 0.8235294117647058, "cer": 0.8571428571428571}
+{"utterance_id": "U_9fa6a8e72c3e2a0c", "reference": "dɑg", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_9fc1ee8e0a8d1cd7", "reference": "hwɔid", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_9fce0e327dc9bb44", "reference": "stɑz", "prediction": "d", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_9fe8d2f3005a2920", "reference": "ə gɪtɑɚ", "prediction": "ət", "per": 0.6666666666666666, "cer": 0.7142857142857143}
+{"utterance_id": "U_9ffa7dd5c8eb1006", "reference": "fʌn kʊlu nɑ vu ʧɛjɑ", "prediction": "ɑæʧ", "per": 0.8666666666666667, "cer": 0.8947368421052632}
+{"utterance_id": "U_a0b55e0e16bbbf60", "reference": "ɑɪn", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_a257a39ad65dbf5c", "reference": "bikʌz ɑi ʤʌs wɑnɪd tu", "prediction": "iɪəɪɑ", "per": 0.8823529411764706, "cer": 0.9047619047619048}
+{"utterance_id": "U_a2e72cd47e1de865", "reference": "gʊɔiv", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_a385163f52d9cdca", "reference": "ʃoʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_a3a100dcae533182", "reference": "soʊ ðe don gɛt lɑst", "prediction": "əɪs", "per": 0.9333333333333333, "cer": 0.9473684210526315}
+{"utterance_id": "U_a3bdc58d6947e45f", "reference": "ɑɫ pʌt ʤə kwæ kwæ", "prediction": "ɪææ", "per": 0.8461538461538461, "cer": 0.8823529411764706}
+{"utterance_id": "U_a4166863d59c1782", "reference": "ɑɚ vɚs ɪs hɑʊ mʌʧ wi tɑk", "prediction": "ɪæk", "per": 0.8888888888888888, "cer": 0.9166666666666666}
+{"utterance_id": "U_a4bf8c6d2a03c5dc", "reference": "sɔhʌn", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_a4c6fb1dd9b12ce6", "reference": "ðæt wʌn", "prediction": "k", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_a57d47b2ad8234a4", "reference": "pɑt", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_a5b1c50c04bfa1f9", "reference": "ɑn tu pipəɫ ɑn ɑn də", "prediction": "tiʌɪə", "per": 0.8, "cer": 0.85}
+{"utterance_id": "U_a5e234cacb5f754c", "reference": "bjɑːdθɪɫɪs", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_a64966a6a3c8414f", "reference": "ə zibɹæ", "prediction": "s", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_a6b0d85f70bfdf59", "reference": "wi stɑp æt ðæt klɪp", "prediction": "iɪæɪ", "per": 0.8, "cer": 0.8421052631578947}
+{"utterance_id": "U_a70d6e8233144b80", "reference": "də tɑp", "prediction": "tæ", "per": 0.8, "cer": 0.8333333333333334}
+{"utterance_id": "U_a797e4140d5ab229", "reference": "pɚ ʧiv", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_a7ad7ff3bb00ab60", "reference": "hɑʊ huwɪ kei", "prediction": "ɪk", "per": 0.8, "cer": 0.8333333333333334}
+{"utterance_id": "U_a7b08b7fa8d6ba98", "reference": "beiv", "prediction": "i", "per": 0.75, "cer": 0.75}
+{"utterance_id": "U_a8430f656f6de098", "reference": "jæ bʌ ɑim gɑnə noʊ ɑl ʌv dɛm", "prediction": "æɪ", "per": 0.9523809523809523, "cer": 0.9642857142857143}
+{"utterance_id": "U_a84d22ef9e35f207", "reference": "fʌ wɑʊ kɑʊ vʌ vɪʔɪn", "prediction": "ək", "per": 0.9333333333333333, "cer": 0.9473684210526315}
+{"utterance_id": "U_a8757a72164ae90a", "reference": "ðɪs ɪz fʌn", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_a8a4e7c5e064524a", "reference": "beið", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_a96b268ed2fe8222", "reference": "jeæː", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_aa34b787cd5087ed", "reference": "wɚ dʌn", "prediction": "ɑæ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_aa77e59ffa67a543", "reference": "ðɪs pʊk", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_aaf310a25921aa9a", "reference": "ɑʊ ɑi si", "prediction": "ɪə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_ab616cd2879949c7", "reference": "pʌp kɑon ɪz ɑʊt sei pɑp", "prediction": "ææʧæ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_ab7e4cfaecdcd299", "reference": "wʌz nɛkst", "prediction": "wk", "per": 0.75, "cer": 0.7777777777777778}
+{"utterance_id": "U_abd076a8519d9bf0", "reference": "kæʃ", "prediction": "æ", "per": 0.6666666666666666, "cer": 0.6666666666666666}
+{"utterance_id": "U_abf232fcdfa9dd0b", "reference": "geit ɑɚ wi ɑlmost dʌn", "prediction": "i", "per": 0.9411764705882353, "cer": 0.9523809523809523}
+{"utterance_id": "U_ac716a93c00447c8", "reference": "pɑʊfhɪðhɚki", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_ac87ec5b9fc7a155", "reference": "jɛ dʌ ei", "prediction": "ɑdə", "per": 0.8333333333333334, "cer": 0.875}
+{"utterance_id": "U_acda0d012b2a2c51", "reference": "ʌm dɪs wʌn", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_ad058956307cf811", "reference": "luː həɹ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_ad583d78a4369a0e", "reference": "muː", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_ad62ce5ef0f171c0", "reference": "pʊt dʌ hei dɪz ɪz ʌ hei foɚ dʌ kɑʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_ad905317f8f349ce", "reference": "ʃip", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_ae3b0938ab50576d", "reference": "jeæ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_ae7990b6a7819167", "reference": "ɔɹk gelɔ lɑifkein", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_aeedd21936ae06c1", "reference": "ɑi mɑi həv tə teik mɑi hʌdfoʊnz ɑf", "prediction": "ʌ", "per": 0.9629629629629629, "cer": 0.9705882352941176}
+{"utterance_id": "U_af2b5a74e7114ea6", "reference": "jeæ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_afafd2d10e7ff297", "reference": "gʊd", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_b012813ad117f2a3", "reference": "næflkʌd", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_b051f1b7658732b0", "reference": "bɪg", "prediction": "ɑ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_b0906243b757a8ad", "reference": "mɔɪl", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_b122aa8433c93400", "reference": "ɪ sɛz gɪfgə", "prediction": "ʌɪɪ", "per": 0.8888888888888888, "cer": 0.9090909090909091}
+{"utterance_id": "U_b16587cf2c9d977b", "reference": "ðɪs wʌz ɑn hiɚː", "prediction": "ɑ", "per": 0.9166666666666666, "cer": 0.9333333333333333}
+{"utterance_id": "U_b16adadd1ef77204", "reference": "higəe", "prediction": "iəɑ", "per": 0.6, "cer": 0.6}
+{"utterance_id": "U_b1b7ff615e1fbcac", "reference": "ɑi ɑi don nɔu idɚ", "prediction": "iɑ", "per": 0.8461538461538461, "cer": 0.8823529411764706}
+{"utterance_id": "U_b1c26833e30ba586", "reference": "nʌ ɑi doʊn noʊ hɑʊ dɪs wɚks ɪt wɚks ɹɪli gʊd", "prediction": "əɑɑsʧii", "per": 0.8823529411764706, "cer": 0.9090909090909091}
+{"utterance_id": "U_b20252264c1df3ad", "reference": "stɐf inθɹo enə en instɹ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_b21b1be02141987a", "reference": "soʊp", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_b23156977420dbf4", "reference": "siːt", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_b2640ceb2b0d0cd4", "reference": "wi nid ə kɑnsɪɫ ðə tɑimɚ", "prediction": "æəɪɪ", "per": 0.8947368421052632, "cer": 0.9166666666666666}
+{"utterance_id": "U_b2c42605307cb2c7", "reference": "distɛ v ʤɪmkju hɪz mɪlk hwihi ə hi gwin əpl", "prediction": "tɪkæɑkɪ", "per": 0.8823529411764706, "cer": 0.9069767441860465}
+{"utterance_id": "U_b30aebe2a7f2f85a", "reference": "ɪt ɪt fɛl", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_b333bc574a860d54", "reference": "kɑɪmgɑ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_b3bad520cf143a34", "reference": "ɑn səmbədi pleijɪn ɪn ðə sɑn", "prediction": "ʌdɪ", "per": 0.9130434782608695, "cer": 0.9285714285714286}
+{"utterance_id": "U_b432248c81528190", "reference": "neiːk", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_b47c5aa488386ae1", "reference": "kʌkeip", "prediction": "æk", "per": 0.8333333333333334, "cer": 0.8333333333333334}
+{"utterance_id": "U_b503d392edd872e6", "reference": "koʊmɪŋ hɚ h ɑi min bɹʌʃɪŋ hɚ hɛɚ", "prediction": "ʌ", "per": 0.96, "cer": 0.96875}
+{"utterance_id": "U_b55702a7628c27de", "reference": "moteəfʌhmoʊntɪnmouθ", "prediction": "æʧʧæʧ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_b5aac9c5b97372ca", "reference": "sut", "prediction": "ɪ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_b5afb0d8699043ac", "reference": "ʃi ɪz ɑn ðʌ stɛz", "prediction": "ɑ", "per": 0.9166666666666666, "cer": 0.9375}
+{"utterance_id": "U_b5ccffc3f795859b", "reference": "wʌt dɪs ʌ bɪg hoɚs", "prediction": "ææ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_b5e38fad52332f64", "reference": "dɛsːk", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_b5e730a94e28a300", "reference": "ʃi dəz nɔt lɑik pæn æt ɔks", "prediction": "æɑɑ", "per": 0.95, "cer": 0.9615384615384616}
+{"utterance_id": "U_b67decb48d5c9135", "reference": "mju ɑ tʊ tʊ tʊ", "prediction": "k", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_b6fd116ddd95e462", "reference": "kloʊz", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_b729a026172c6b89", "reference": "kʌp", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_b74bb4f7773521d8", "reference": "hi ʃud goʊ ʌp hɪɚ kʌz hi nidz tu teik ʌ ɹɛst", "prediction": "ɪdəæ", "per": 0.9393939393939394, "cer": 0.9545454545454546}
+{"utterance_id": "U_b7554a5019bbac0f", "reference": "ifəbubɑʊbɔikm", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_b7686c882997b6b4", "reference": "θɹudieit ʌn də pɚgɪ sɪt ɑn də fɑɹgɚz ʃtɹiːŋ", "prediction": "æɑ", "per": 0.9714285714285714, "cer": 0.9767441860465116}
+{"utterance_id": "U_b7afdaeef94cf5be", "reference": "fit", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_b88825c3fd9d4c6f", "reference": "ðʌ wʊmɪn ɪn ðʌ blu ʃot geiv æɾəm ʌ kʌp ʌv wɑɾo ivɪn ðoʊ hi wʌzɪn ʃosi", "prediction": "ɑipæææwɑt", "per": 0.9245283018867925, "cer": 0.9420289855072463}
+{"utterance_id": "U_b906d369ed32a42e", "reference": "bjuk bətov ləf", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_bb0d65d6da3e2bff", "reference": "his gɑnə kʌm bæk", "prediction": "ɑ", "per": 0.9230769230769231, "cer": 0.9375}
+{"utterance_id": "U_bb653b056635c4dc", "reference": "ðʌ tɑp", "prediction": "ɪt", "per": 0.8, "cer": 0.8333333333333334}
+{"utterance_id": "U_bb790233505d62ec", "reference": "hwɪʃ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_bbbe151bbd9f4b60", "reference": "nɑʊ wʌʔ geɪm wɚ gənə pleɪ", "prediction": "ət", "per": 0.95, "cer": 0.96}
+{"utterance_id": "U_bc21e3d727c6fddd", "reference": "jæ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_bc67155afeb2c354", "reference": "lʊk dʌ dɑg ɪz gɛɾɪŋ hɪm", "prediction": "ədææ", "per": 0.9444444444444444, "cer": 0.9565217391304348}
+{"utterance_id": "U_bc731caa11e739d7", "reference": "oʊ no mɑɪ stɪkɚ", "prediction": "ɪə", "per": 0.9166666666666666, "cer": 0.9333333333333333}
+{"utterance_id": "U_bd23228e8e841f8c", "reference": "ðæts ə hɑʊs", "prediction": "d", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_bd5f5d38c1cf8330", "reference": "ninwɔɪ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_bd68afc3d8366c3a", "reference": "gʊd", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_bd7c1a1780a05b7e", "reference": "ʃuz", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_bd8d43c257409043", "reference": "ɑm ənəs teik mɑi hʊdi ɑf", "prediction": "sɪɑ", "per": 0.8947368421052632, "cer": 0.9166666666666666}
+{"utterance_id": "U_bdb54afe9b35e48d", "reference": "æŋ nɑʊ dʌ ʧɪkɪn", "prediction": "əɑtd", "per": 0.8333333333333334, "cer": 0.8666666666666667}
+{"utterance_id": "U_be747b376fd01b7e", "reference": "pɛnt", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_bef521037dfc5e16", "reference": "ɑi hæv ʌ pɹɪtɛŋ kəmpjuɾɚ æ hoʊm", "prediction": "ɛtɪ", "per": 0.96, "cer": 0.967741935483871}
+{"utterance_id": "U_bf131e78eb8a6e21", "reference": "tjɑ", "prediction": "k", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_bf3cd7e9faa11360", "reference": "kʌp", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_bf449bc9c336cac1", "reference": "fəiʃ", "prediction": "ɑ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_bf70969d82a89755", "reference": "gwæ gwæ gwæ gwæ", "prediction": "ææ", "per": 0.8333333333333334, "cer": 0.8666666666666667}
+{"utterance_id": "U_bfb63093add867e9", "reference": "ə wɑʧ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_c0685bb72b68df19", "reference": "ə gətɑɹ", "prediction": "əɪit", "per": 0.6666666666666666, "cer": 0.7142857142857143}
+{"utterance_id": "U_c06e5fc7767512db", "reference": "dɑg", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_c080062cb13c98e0", "reference": "fuːdə", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_c09af28aaca081ba", "reference": "ə ʤʌmp", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_c1c8ee71dc2ddd95", "reference": "bəʧoləvɑɚ", "prediction": "ʧ", "per": 0.8888888888888888, "cer": 0.8888888888888888}
+{"utterance_id": "U_c1ce83ce23c7d4cb", "reference": "ʃɑt", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_c1d8ff9de7febc8f", "reference": "ʧis", "prediction": "i", "per": 0.6666666666666666, "cer": 0.6666666666666666}
+{"utterance_id": "U_c1e0121f675fa5f1", "reference": "ðʌ fɛnsɪz", "prediction": "əæ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_c1efcd035526c86e", "reference": "fɚgɑt wɛn ʃi fɛl ɑf", "prediction": "ɪ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_c226811d976e9718", "reference": "oʊl", "prediction": "k", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_c227feb76a2ae3eb", "reference": "hi goɪŋ tu his goɪŋ tu gɛt moɚ hei", "prediction": "t", "per": 0.9615384615384616, "cer": 0.9705882352941176}
+{"utterance_id": "U_c265e19d815cb118", "reference": "wʌt hæpɪŋ æ oʊ ɛ kæn ɑi plei wɪ nu tɔi nɑʊ", "prediction": "pkɪiɪ", "per": 0.8709677419354839, "cer": 0.9047619047619048}
+{"utterance_id": "U_c273cde292c43968", "reference": "kʊkiː", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_c28d2d4087b56658", "reference": "ɑi kjut ɑim kjut wɪðɑʊt mɑi hʊdi bʌt ɑim kjut wɪð mɑi hʊdi ivən kjuɾɚ", "prediction": "ɑʌkɑəɪəʌ", "per": 0.9090909090909091, "cer": 0.927536231884058}
+{"utterance_id": "U_c378833cb2127811", "reference": "də ʧɪlʤɹɪn kɛ pleɪ bʌt ðeɪ nid tə bi kwɑɪ", "prediction": "ʧæɪkæbəkitəɑ", "per": 0.75, "cer": 0.8048780487804879}
+{"utterance_id": "U_c3a99574d39e5436", "reference": "tɑe", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_c44b4d6f12f780cb", "reference": "ɑn ɛvɹiθɪŋ ɪz gənə goʊ əwei", "prediction": "ɪiɪk", "per": 0.9090909090909091, "cer": 0.9259259259259259}
+{"utterance_id": "U_c44bde7376d4cfda", "reference": "ə lif", "prediction": "əi", "per": 0.5, "cer": 0.6}
+{"utterance_id": "U_c44be20bb4ce20a8", "reference": "ɹɑ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_c45221137ba0a261", "reference": "guːbətɑiʃɑʊv", "prediction": "ʧ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_c4ab77e74e18e32a", "reference": "ʤus", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_c4b69d1e9e78c8aa", "reference": "ɚ fɹɑg", "prediction": "ə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_c5124beb2f1c4197", "reference": "sʌmə wʌt eʃɪ beɚ", "prediction": "i", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_c526a2661709b933", "reference": "kəʧi ɑi wɑnt tu sei jo se", "prediction": "i", "per": 0.9473684210526315, "cer": 0.96}
+{"utterance_id": "U_c565b2ff89715f1d", "reference": "hæːvdiboʊvpətoʊv", "prediction": "bt", "per": 0.875, "cer": 0.875}
+{"utterance_id": "U_c583d720820bbf37", "reference": "ŋlufbɑʊftɪ", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_c5ef704ebbb60233", "reference": "də bəgubɚʧin", "prediction": "əɑbæi", "per": 0.7272727272727273, "cer": 0.75}
+{"utterance_id": "U_c6394f79448de022", "reference": "kʌz nobɑjiz plei kʌz hɪz ɑiskɹim fɛl ɪn dʌ sænd", "prediction": "ɛɛəɑæəs", "per": 0.9473684210526315, "cer": 0.9574468085106383}
+{"utterance_id": "U_c676b58344e92701", "reference": "ɑi si ə goɫ slɑidɪŋ dɑʊn", "prediction": "ɪdə", "per": 0.8947368421052632, "cer": 0.9166666666666666}
+{"utterance_id": "U_c70224255472ba9c", "reference": "slɑid", "prediction": "ækɪ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_c765f9084a80f9dd", "reference": "fɪʃ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_c7be9580e89cacf0", "reference": "kəʧɪːzɑ", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_c8278dd74948c907", "reference": "də ʧɪwʤɹɪn kn pleɪ bʌt ðə nid tə bi kwɑɪjɪt", "prediction": "əʧækət", "per": 0.8529411764705882, "cer": 0.8837209302325582}
+{"utterance_id": "U_c8accb7ebc87527f", "reference": "ʃnkɑloɪ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_c8c81c545ce3d1dd", "reference": "wi hæd tu stɑp plein nsɑid bikʌz ɪt hæz wein soʊ mʌʃ", "prediction": "iætæɑɪæ", "per": 0.8536585365853658, "cer": 0.8846153846153846}
+{"utterance_id": "U_c95f971b3b942260", "reference": "soʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_ca51a50127a0636d", "reference": "hi sɛz ɪz θɹoʊt hʊts", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_ca6b315e2fb65d6a", "reference": "ðʌ tɹʌk sloʊd dɑʊn æn pɑkt ɑn ðʌ sɑid ʌz bɪbi woʊd", "prediction": "əʧækææ", "per": 0.9487179487179487, "cer": 0.96}
+{"utterance_id": "U_cad3a6b3e96f6210", "reference": "eundʧɛtejund", "prediction": "t", "per": 0.9166666666666666, "cer": 0.9166666666666666}
+{"utterance_id": "U_cae35fd749bfa7a5", "reference": "nɑʊ mɔi pɑinz ki ɪwo", "prediction": "ik", "per": 0.875, "cer": 0.9}
+{"utterance_id": "U_cb07754ce26aea9e", "reference": "tiθ", "prediction": "i", "per": 0.6666666666666666, "cer": 0.6666666666666666}
+{"utterance_id": "U_cb7939e3aeead9e6", "reference": "ku ʃi næ tɪ pɚ ɪn", "prediction": "ɪkɪ", "per": 0.8333333333333334, "cer": 0.8823529411764706}
+{"utterance_id": "U_cbf8d61f4fe5229f", "reference": "jæ", "prediction": "æ", "per": 0.5, "cer": 0.5}
+{"utterance_id": "U_cc04de0c9d8e8d92", "reference": "gun də ʧɑi tæ kʊ", "prediction": "dʧ", "per": 0.8333333333333334, "cer": 0.875}
+{"utterance_id": "U_cc07903ef2611588", "reference": "dʌp", "prediction": "d", "per": 0.6666666666666666, "cer": 0.6666666666666666}
+{"utterance_id": "U_cc1f57b30f4d091b", "reference": "eg", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_cc399c6522874a1b", "reference": "fɛns", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_cc7c912db7a31078", "reference": "mu mə stu ləsmʧ e ejlnlz ɪn ðə fowɪs bəukeɪm kwɑɪlɪt", "prediction": "ʧəɑ", "per": 0.9285714285714286, "cer": 0.9423076923076923}
+{"utterance_id": "U_cc9b4261720281f4", "reference": "ðæts nɑt blæk", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_cd11f7ae6645bec9", "reference": "lif", "prediction": "ɪi", "per": 0.6666666666666666, "cer": 0.6666666666666666}
+{"utterance_id": "U_cd25341f316627c9", "reference": "tɑp", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_cd4ecc28cda237bf", "reference": "ʃɛl", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_ce1afea5511b786e", "reference": "nɑʊ dɪs hoɚs goʊz ɹɑit hɪɚ", "prediction": "ɚ", "per": 0.9523809523809523, "cer": 0.9615384615384616}
+{"utterance_id": "U_ce1b7651348c3f80", "reference": "lɑik mɑi m mɑi tif ɪz əbɑʊt tu fɛl ɑf", "prediction": "ɪs", "per": 0.9642857142857143, "cer": 0.972972972972973}
+{"utterance_id": "U_cf1d0bfce3827758", "reference": "jɛ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_cf36a5b5b4c3efe3", "reference": "pɑt", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_cf4bdc9cf8657519", "reference": "bɪʃ", "prediction": "ɪ", "per": 0.6666666666666666, "cer": 0.6666666666666666}
+{"utterance_id": "U_cf675d2d9b12b59c", "reference": "mʌŋki", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_cfb0738dccc9b330", "reference": "vʌgʊpəʧiː", "prediction": "æəʧ", "per": 0.7777777777777778, "cer": 0.7777777777777778}
+{"utterance_id": "U_cfba3aa69b4a5d65", "reference": "ɑi kʊd pɪk dʌ wɑit wʌn oɚ dʌ ɑɚnd wʌn", "prediction": "ɑiɪ", "per": 0.8928571428571429, "cer": 0.918918918918919}
+{"utterance_id": "U_d022741dbf581cf5", "reference": "jɛ noʊ hiz gɑnə fɑl", "prediction": "sɑ", "per": 0.9333333333333333, "cer": 0.9473684210526315}
+{"utterance_id": "U_d056c0de49a13dd1", "reference": "bɑʊf tɪl ʧi", "prediction": "əʧ", "per": 0.8888888888888888, "cer": 0.9090909090909091}
+{"utterance_id": "U_d0b4aeb7600bf0a1", "reference": "moteə", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_d0d02cc4a1dd3e5d", "reference": "junəo giv fəɹ nəo hɑjku hæs fiʃfei", "prediction": "it", "per": 0.9642857142857143, "cer": 0.9705882352941176}
+{"utterance_id": "U_d16c8800fae95acc", "reference": "poɹɪstɑʊːn", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_d19fb50fdaf5a817", "reference": "si ju si dɪz jo hoɚs soʊ ɪt goʊ ɹɑi hɪɚ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_d1ac8debabbdec40", "reference": "mɑʊs", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_d24bbad55987b56e", "reference": "kʌʧeɪhɑ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_d2c8177dc4b4185d", "reference": "də men æn də tɹʌk ɪz mɑi fɹnds ənkəɫ oi", "prediction": "æɑtæɪ", "per": 0.9, "cer": 0.9230769230769231}
+{"utterance_id": "U_d2ca669f92c55614", "reference": "biːfː", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_d42ecaf70fb74ce7", "reference": "bɑːk", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_d43998b9e44a0f9e", "reference": "ʃu", "prediction": "ʃ", "per": 0.5, "cer": 0.5}
+{"utterance_id": "U_d44fdcd65a04c2a0", "reference": "ʧɑk", "prediction": "ʧæ", "per": 0.6666666666666666, "cer": 0.6666666666666666}
+{"utterance_id": "U_d47410aef531ae0a", "reference": "wʌt ɪt kips muvɪŋ wɑi dʌz ɪt kip ɑn muvɪŋ", "prediction": "ti", "per": 0.9375, "cer": 0.9512195121951219}
+{"utterance_id": "U_d4dfa1b6b680521b", "reference": "ʃoʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_d4ff730f076cab9d", "reference": "wʌtsə kɑpi kæt geim", "prediction": "kɑki", "per": 0.75, "cer": 0.7894736842105263}
+{"utterance_id": "U_d5329504f18ec2c9", "reference": "gɛs", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_d56e77cdc7df7f43", "reference": "ʃips", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_d585c0bd184f6ac1", "reference": "æpl", "prediction": "æ", "per": 0.6666666666666666, "cer": 0.6666666666666666}
+{"utterance_id": "U_d58e6bad9cdb2ef4", "reference": "ə fiŋgɚz", "prediction": "i", "per": 0.8571428571428571, "cer": 0.875}
+{"utterance_id": "U_d59e33f90951b369", "reference": "pɪg", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_d5b48106b7bce8e9", "reference": "ɪts ɪn dʌ ʌɾɚ ɹuf dæs gʊd", "prediction": "dəædɪs", "per": 0.8421052631578947, "cer": 0.88}
+{"utterance_id": "U_d6a5bbd4454fd641", "reference": "wʌ də ju wɑn tə du æftɚ ɹiɾin dɪs fwɑ", "prediction": "ætækis", "per": 0.8571428571428571, "cer": 0.8918918918918919}
+{"utterance_id": "U_d7b14b7c691ba155", "reference": "jæ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_d7ed14eeb7baa106", "reference": "meibi ɑi diŋk ʃi foɚgɑɾ ɪt", "prediction": "əɪb", "per": 0.9523809523809523, "cer": 0.9615384615384616}
+{"utterance_id": "U_d7f8883873fe4703", "reference": "owɑʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_d829a1f27e062378", "reference": "wɛnɛvɚ ðə bɛɫ ɹɪŋʃ wɑk fɹu ðoʊʒ doɹs", "prediction": "æbʧækk", "per": 0.9310344827586207, "cer": 0.9444444444444444}
+{"utterance_id": "U_d8490c116f5b633b", "reference": "kɹɑʊn", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_d85b1c0af6011fe6", "reference": "ðɚ tɑijɚd", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_d93065beb617babd", "reference": "oʊkei", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_d98fb1b8fc27219a", "reference": "hæzdotiːg", "prediction": "k", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_da1840a85fdf5b25", "reference": "ɹɑi dɛ", "prediction": "i", "per": 0.8, "cer": 0.8333333333333334}
+{"utterance_id": "U_da199fb09d922d4a", "reference": "ɑ lʊk kjut", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_da26294152229b82", "reference": "dei gɑnə fɑl dɑʊn", "prediction": "dd", "per": 0.8571428571428571, "cer": 0.8823529411764706}
+{"utterance_id": "U_da43b3223beb4e66", "reference": "ðə bæski jɑl ə poɚʧ bndɚ ðə teɪbl hæz ə vɹʌkɪn hændl", "prediction": "ææɑb", "per": 0.926829268292683, "cer": 0.9423076923076923}
+{"utterance_id": "U_da4cae010b5a0cf9", "reference": "oʊ no", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_da86cb23ab6e513b", "reference": "pɪg", "prediction": "i", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_da9cd25fbb9f5c08", "reference": "nɑʊ ju gɑ pʊ ɹɑi hɪɚ", "prediction": "æt", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_db3aa276910dc5ff", "reference": "bəkɑ foʊm də woli si don wɑnə tɹæ", "prediction": "əɑ", "per": 0.9230769230769231, "cer": 0.9393939393939394}
+{"utterance_id": "U_db4677d98f24d80f", "reference": "m tif", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_db8c80ad7f07f59f", "reference": "instɛɾ əv dɹɪŋkɪŋ hɪz mɪɫk wɪli eid ə ə gɹin æpəɫ", "prediction": "æækæɑkk", "per": 0.9487179487179487, "cer": 0.9591836734693877}
+{"utterance_id": "U_dbf34f260f05040d", "reference": "hətɑktɪs", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_dcd35bde0e14e347", "reference": "ə ʧeɚ", "prediction": "əʧ", "per": 0.5, "cer": 0.6}
+{"utterance_id": "U_dcd51b43deedd3ca", "reference": "ɹɪmɛmbɚɪ", "prediction": "d", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_dd5c5b85be6af0d3", "reference": "bæt kæt kænt swɪm æz izəli æθ ðæt kʌɾəɫfəɫ fɪʃ", "prediction": "ækækæ", "per": 0.8648648648648649, "cer": 0.8913043478260869}
+{"utterance_id": "U_ddab4bcbef9610ee", "reference": "səlɔg", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_defd737e72f6844c", "reference": "gɚələ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_df288352e4fc3279", "reference": "jæ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_df61fbaa39cadde8", "reference": "doʊ dɑ", "prediction": "ɑ", "per": 0.8, "cer": 0.8333333333333334}
+{"utterance_id": "U_dfb1425024a9aa02", "reference": "æn kʌz noʊbɑji wɑnz tu plei ɪf hɪm", "prediction": "əkɪbɑk", "per": 0.8888888888888888, "cer": 0.9117647058823529}
+{"utterance_id": "U_dfd44ceb7019617e", "reference": "ɑibɹɑʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_e0d2fa88678f912d", "reference": "dækɑʊfukoku ətsts ɑ", "prediction": "bɑəæ", "per": 0.8823529411764706, "cer": 0.8947368421052632}
+{"utterance_id": "U_e161b749ff9645bc", "reference": "ə ɹɪŋk", "prediction": "əi", "per": 0.8, "cer": 0.8333333333333334}
+{"utterance_id": "U_e1f2b29c922dd69e", "reference": "ə kɹɑʊn", "prediction": "ək", "per": 0.6666666666666666, "cer": 0.7142857142857143}
+{"utterance_id": "U_e29769dda71f08b7", "reference": "voʊgumʌʧin", "prediction": "əæʧ", "per": 0.9, "cer": 0.9}
+{"utterance_id": "U_e2e55f41b246f1a7", "reference": "ə kʌp", "prediction": "əkæ", "per": 0.5, "cer": 0.6}
+{"utterance_id": "U_e32b8d63bcf8afa8", "reference": "æn nɑʊ dʌ ʃip ɪz ɹʌnɪŋ əwe kʌz dʌ dɑg wɑnts tu iɾɪt", "prediction": "əɪss", "per": 0.9487179487179487, "cer": 0.9607843137254902}
+{"utterance_id": "U_e382301195f469ef", "reference": "gɪmdutɔibæ", "prediction": "ik", "per": 0.9, "cer": 0.9}
+{"utterance_id": "U_e39b24694fd95acf", "reference": "jɛ dʌ hoɚ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_e3a3da6efdd55685", "reference": "də ʧɪldɹɪn kæjə pɹeɪ bə gwi ni tə bi hɹɑijɪt", "prediction": "ʧkæ", "per": 0.9142857142857143, "cer": 0.9318181818181818}
+{"utterance_id": "U_e3b92cb39c338b02", "reference": "oʊ wɛn wɛn ju tɑk ɪt muvz", "prediction": "ɑɑə", "per": 0.9473684210526315, "cer": 0.96}
+{"utterance_id": "U_e3c6d89d122fd67c", "reference": "bɑːk", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_e3fa516d82dae035", "reference": "mɔiwɪ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_e42aa0264a11e695", "reference": "kjut lɪɾəɫ t", "prediction": "ɑdə", "per": 0.9, "cer": 0.9166666666666666}
+{"utterance_id": "U_e4db373e3b6a6715", "reference": "ʃɔig", "prediction": "i", "per": 0.75, "cer": 0.75}
+{"utterance_id": "U_e57c993400377f00", "reference": "ɑi nid mɑi hʊd", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_e5a9559c63d02bbe", "reference": "də ʧidlɹən dont plei bʌt dei nid kɑet", "prediction": "tʧkəkk", "per": 0.9, "cer": 0.918918918918919}
+{"utterance_id": "U_e5c52c2208b4d260", "reference": "tɑʊːɚb dɪdɪ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_e5cf35eef05d62d4", "reference": "oʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_e5d93a01f1253b62", "reference": "weotɑshəitɑije", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_e605305db1cf1d61", "reference": "æn ivɪŋ dɪs wʌn ɪz kʌmɪŋ bæk", "prediction": "ɑə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_e62a2468232bf027", "reference": "jæ ɪlɛ ɑi nid tʌ ɑi nid tʌ pʊt ðɛm wɛɚɛvɚ ɑi wɑnt", "prediction": "ædɪidəd", "per": 0.8918918918918919, "cer": 0.8979591836734694}
+{"utterance_id": "U_e77a5c569265b046", "reference": "pənʧuvætiːn", "prediction": "ʧɑ", "per": 0.9090909090909091, "cer": 0.9090909090909091}
+{"utterance_id": "U_e7b8f0d8e258df6f", "reference": "ə ʃʌvl", "prediction": "ɑ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_e8560fdc6fd944ba", "reference": "wəɹ ɑɹ də bɪg ʧɹʌks ɑn də ʃəʃəʃɪ bɪg goʊwɪŋ", "prediction": "ʌæʧæ", "per": 0.9705882352941176, "cer": 0.9767441860465116}
+{"utterance_id": "U_e858d2949dcd595f", "reference": "fɑmːɚ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_e85ed6e522c6fb94", "reference": "ðɪs goʊz ɪn hiɚ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_e873ab3217e21906", "reference": "hiɹoin so de", "prediction": "ɪ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_e88509bc246d4503", "reference": "ə ʤɚɹæf", "prediction": "ətæ", "per": 0.6666666666666666, "cer": 0.7142857142857143}
+{"utterance_id": "U_e9353f29e63d2d47", "reference": "dɪd ju sei noʊ bwɪŋkɪŋ", "prediction": "i", "per": 0.9444444444444444, "cer": 0.9545454545454546}
+{"utterance_id": "U_e9538ffaff2bd0f8", "reference": "kʌs ɪts hei", "prediction": "əs", "per": 0.8888888888888888, "cer": 0.9090909090909091}
+{"utterance_id": "U_ea16f891eb6c5d7c", "reference": "ʌm ɑi lɑik fɑɚmz", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_ea60155de0eb929b", "reference": "hʊd", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_ea6685a48787edcb", "reference": "əkei", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_eac7ce9525c974ef", "reference": "swɪŋs", "prediction": "ɪ", "per": 0.8, "cer": 0.8}
+{"utterance_id": "U_eae223779f67f87a", "reference": "gɹin", "prediction": "i", "per": 0.75, "cer": 0.75}
+{"utterance_id": "U_eb20daaf2cfd9d39", "reference": "ɹɛd", "prediction": "w", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_eb27814170d2fc03", "reference": "ɹɪŋ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_eb4e5ecea8c4ea28", "reference": "ən ɑi si ə tɛɾibeɚ ʌndɚ ðə slɑid ən ɑi si ə gʊɫ slɑiɪŋ dɑʊn ən ɑi si ə gʊɫ klɑimɪŋ ʌp", "prediction": "ɪæɑæɛis", "per": 0.9375, "cer": 0.9529411764705882}
+{"utterance_id": "U_eb8a00e7e4e7ef11", "reference": "pijɔonpilesponsɪ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_ebdfd0352855c4e2", "reference": "sisɑ æn ʌ bɑ æn ʌ ʧiz", "prediction": "i", "per": 0.9333333333333333, "cer": 0.9523809523809523}
+{"utterance_id": "U_ec781101b5e2894e", "reference": "sʌmbɑɾi", "prediction": "əi", "per": 0.8571428571428571, "cer": 0.8571428571428571}
+{"utterance_id": "U_ece0a5db58e861f8", "reference": "kəʧebɑp", "prediction": "ʧɑ", "per": 0.7142857142857143, "cer": 0.7142857142857143}
+{"utterance_id": "U_ed53e541e2404dfe", "reference": "moɚ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_eda9eee6f247ec20", "reference": "vɑ toʊ wədɑɚɪn nɑ ðæ hɪdɪdɪhɪdɪn", "prediction": "ik", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_edb658e28f196a59", "reference": "ʃus", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_ee27049e6fa63b97", "reference": "mhm", "prediction": "ɪ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_ee2eb2367ca880a1", "reference": "diz tu", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_ee340cc4be559ed0", "reference": "tɑk", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_ee38be9ad59ea142", "reference": "ɑi diŋk dɛɚ əbɑʊt tu fɑit", "prediction": "æiæɑ", "per": 0.9, "cer": 0.92}
+{"utterance_id": "U_ee6d4bff53d890a1", "reference": "ə pɪt", "prediction": "i", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_eed8ba52cbfcc25c", "reference": "ɹoʊd", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_ef31fa33830e2d3e", "reference": "gʊdʧeizəɹ", "prediction": "ʌt", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_ef74f87424d40539", "reference": "ðɪs dʌ hei", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_efc329701568a5e8", "reference": "wʌts ʌ pi ɛl ɛs", "prediction": "əɑ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_f070cab254051482", "reference": "zibɹə", "prediction": "iɑ", "per": 0.8, "cer": 0.8}
+{"utterance_id": "U_f07ab25a74f7f1e6", "reference": "ɛg", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_f0a0eb64ead9be55", "reference": "ʃændei", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_f0a4b8b34c8d2f8b", "reference": "vɛʃtəblː", "prediction": "ɑə", "per": 0.875, "cer": 0.875}
+{"utterance_id": "U_f0a4baeb9de6b8ff", "reference": "tɑʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_f0fcda258733f329", "reference": "gɚlfdoʊitim", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_f112db202abc3c0f", "reference": "kæt", "prediction": "æ", "per": 0.6666666666666666, "cer": 0.6666666666666666}
+{"utterance_id": "U_f1746bf5f9dcce4c", "reference": "ɑi si bɔːz ən ɑi si ðə fɛns", "prediction": "iəæ", "per": 0.9, "cer": 0.9259259259259259}
+{"utterance_id": "U_f18d65bdfcf9145b", "reference": "ɚɪhɑ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_f2251552e7fc48e6", "reference": "dɛɚ", "prediction": "i", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_f22a9c998ffb1297", "reference": "blu", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_f22b95e12f08a3e8", "reference": "ɑim foɹ", "prediction": "ɪɪ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_f33ab77e5abcd77c", "reference": "ɪt dɪz", "prediction": "k", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_f44417d8809af8f0", "reference": "bəkɑɪsfɹmɔi", "prediction": "əiʧɑi", "per": 0.8181818181818182, "cer": 0.8181818181818182}
+{"utterance_id": "U_f457ac7b9f452463", "reference": "ə swɪŋk", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_f4582017954d5095", "reference": "ɑɚ wi omoʊs dʌn", "prediction": "ət", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_f4fa7ef5bfe96913", "reference": "okei", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_f503491983c0c755", "reference": "dɑif", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_f57f19858ded143a", "reference": "ðæbuvəksuwe", "prediction": "ɑə", "per": 0.9090909090909091, "cer": 0.9090909090909091}
+{"utterance_id": "U_f5c79f4c40a939cf", "reference": "ðʌ dɑg bɑi ðʌ tɹi ɪn ðʌ pok hæz ʌ wulun fʊlɪŋ", "prediction": "dɑʧkæk", "per": 0.8823529411764706, "cer": 0.9111111111111111}
+{"utterance_id": "U_f5f65e3e4edb4c62", "reference": "jɑʊkəlɔi", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_f61c6c186f460768", "reference": "nɑʊ wʌʧ wʌn wi gɑnə plei wɪθ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_f65dd871479eeb5d", "reference": "bɑk bɑk", "prediction": "ə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_f6729dbca8e63bae", "reference": "ɪt gənə bi lɑik fɑiv mɪnɪts", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_f6808ce7fc838f04", "reference": "ə pleɪt", "prediction": "əki", "per": 0.8333333333333334, "cer": 0.8571428571428571}
+{"utterance_id": "U_f687501c3a4e6280", "reference": "ðijuwəvɚku", "prediction": "ɪ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_f6f2dbf910e68d73", "reference": "dɑʊb", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_f978d4165730d8c1", "reference": "lʊk ɪts kɑinə lʊk moɚ tɹækɚ gɑi ɹækɚ", "prediction": "ɑ", "per": 0.9655172413793104, "cer": 0.9722222222222222}
+{"utterance_id": "U_f9941efa7c03f301", "reference": "ðæt tɛlz ɪt wɛn jɚ ɑlmoʊst dʌŋ", "prediction": "ək", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_f9b5162f4476e99b", "reference": "ʃu", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_fa18124ca2dad6e0", "reference": "ʃuz", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_fa25d735d972157a", "reference": "tənɪɾɪ ɪts lu ʧi fɛdɪ", "prediction": "æɛ", "per": 0.9411764705882353, "cer": 0.9523809523809523}
+{"utterance_id": "U_fa4e3c6040105ecf", "reference": "əoʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_fa85fd5c01b9a36b", "reference": "sɔi", "prediction": "ə", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_fa9584894680c82a", "reference": "ʧiːp fu heig", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_fad24f89025ef147", "reference": "spɑɪɾɚz meɪk wɛbz", "prediction": "ææsiwæs", "per": 0.9333333333333333, "cer": 0.9411764705882353}
+{"utterance_id": "U_fb9d308891035b3a", "reference": "də pɹɪntsɛs", "prediction": "əpɪ", "per": 0.7, "cer": 0.7272727272727273}
+{"utterance_id": "U_fc4f3865eac42437", "reference": "hɑz", "prediction": "æ", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_fc84f17cc7306dbd", "reference": "ðʌ koʊt wʌz nɑt won bɑi hɪz sɪsto", "prediction": "əkɑkɑə", "per": 0.8846153846153846, "cer": 0.9090909090909091}
+{"utterance_id": "U_fcc2c0d94a16b7ce", "reference": "dont no", "prediction": "k", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_fd8e79853b62df0c", "reference": "kei", "prediction": "kæ", "per": 0.6666666666666666, "cer": 0.6666666666666666}
+{"utterance_id": "U_fda2cbfc9a2efcb3", "reference": "ɛvɹiwɛɚ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_fdbc2d7529fd1c2d", "reference": "bʌt wɛn hi gɛts bʌt wɛn hi gɛts hoʊm hiz gɑnə sei wɛ ɑ dʌ ænɪmolz", "prediction": "əiddiɪsɪsɑ", "per": 0.9, "cer": 0.9230769230769231}
+{"utterance_id": "U_fdbe6a8a70ed8124", "reference": "kɑʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_fe06eecac78bce54", "reference": "æn pəpəɫ", "prediction": "æə", "per": 0.7142857142857143, "cer": 0.75}
+{"utterance_id": "U_fe10a6e53da29b06", "reference": "ðʌ gɚz kæt", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_feffa09a4e1cbdf0", "reference": "goʊ", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_ff26cbd33a88d8ec", "reference": "wi dʌn", "prediction": "id", "per": 0.6, "cer": 0.6666666666666666}
+{"utterance_id": "U_ffb2b6691d9b700e", "reference": "wʌn tu θɹi foʊ fɑi", "prediction": "", "per": 1.0, "cer": 1.0}
+{"utterance_id": "U_fffe57f6f30a4915", "reference": "ɑi θiŋk ɪs goʊ ɹɑit hɪɹ", "prediction": "", "per": 1.0, "cer": 1.0}

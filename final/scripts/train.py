@@ -3,6 +3,8 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
+import random
 import sys
 from pathlib import Path
 
@@ -12,7 +14,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 import torch
 import yaml
-from torch.utils.data import DataLoader
+from torch.utils.data import DataLoader, Sampler
 from tqdm import tqdm
 
 from src.dataset import PhonemeDataset, ctc_collate
@@ -34,6 +36,56 @@ def load_vocab(path: Path) -> tuple[dict[str, int], dict[int, str]]:
     stoi = {k: int(v) for k, v in stoi.items()}
     itos = {int(k): v for k, v in payload["itos"].items()}
     return stoi, itos
+
+
+def resolve_num_workers(cfg: dict) -> int:
+    override = os.environ.get("NUM_WORKERS")
+    if override is not None:
+        return int(override)
+    return int(cfg["train"].get("num_workers", 4))
+
+
+def resolve_optional_int(value: object) -> int | None:
+    if value is None:
+        return None
+    if isinstance(value, str) and value.strip().lower() in {"", "none", "null", "false"}:
+        return None
+    return int(value)
+
+
+class DurationBucketBatchSampler(Sampler[list[int]]):
+    def __init__(
+        self,
+        durations: list[float],
+        batch_size: int,
+        shuffle: bool = True,
+        bucket_size_multiplier: int = 20,
+    ) -> None:
+        self.durations = durations
+        self.batch_size = int(batch_size)
+        self.shuffle = shuffle
+        self.bucket_size = max(self.batch_size, self.batch_size * int(bucket_size_multiplier))
+
+    def __iter__(self):
+        indices = list(range(len(self.durations)))
+        if self.shuffle:
+            random.shuffle(indices)
+            pooled: list[int] = []
+            for start in range(0, len(indices), self.bucket_size):
+                pool = indices[start : start + self.bucket_size]
+                pool.sort(key=self.durations.__getitem__)
+                pooled.extend(pool)
+            indices = pooled
+        else:
+            indices.sort(key=self.durations.__getitem__)
+
+        batches = [indices[start : start + self.batch_size] for start in range(0, len(indices), self.batch_size)]
+        if self.shuffle:
+            random.shuffle(batches)
+        yield from batches
+
+    def __len__(self) -> int:
+        return (len(self.durations) + self.batch_size - 1) // self.batch_size
 
 
 def batch_ctc_loss(
@@ -84,7 +136,14 @@ def main() -> None:
     args = parse_args()
     cfg = yaml.safe_load(args.config.read_text(encoding="utf-8"))
 
+    os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    train_batch_size = int(cfg["train"]["batch_size"])
+    eval_batch_size = int(cfg["train"].get("eval_batch_size", train_batch_size))
+    grad_accum_steps = max(1, int(cfg["train"].get("grad_accum_steps", 1)))
+    num_workers = resolve_num_workers(cfg)
+    freeze_backbone = bool(cfg["model"].get("freeze_backbone", True))
+    unfreeze_epoch = resolve_optional_int(cfg["train"].get("unfreeze_epoch"))
 
     stoi, itos = load_vocab(Path(cfg["data"]["vocab_path"]))
     blank_id = stoi["<blank>"]
@@ -102,28 +161,50 @@ def main() -> None:
         use_specaugment=False,
     )
 
+    train_batch_sampler = DurationBucketBatchSampler(
+        durations=[float(row.get("audio_duration_sec", 0.0)) for row in train_ds.rows],
+        batch_size=train_batch_size,
+        shuffle=True,
+    )
     train_loader = DataLoader(
         train_ds,
-        batch_size=cfg["train"]["batch_size"],
-        shuffle=True,
-        num_workers=cfg["train"].get("num_workers", 4),
+        batch_sampler=train_batch_sampler,
+        num_workers=num_workers,
         collate_fn=ctc_collate,
+        pin_memory=(device.type == "cuda"),
+        persistent_workers=(num_workers > 0),
     )
     val_loader = DataLoader(
         val_ds,
-        batch_size=cfg["train"]["batch_size"],
+        batch_size=eval_batch_size,
         shuffle=False,
-        num_workers=cfg["train"].get("num_workers", 4),
+        num_workers=num_workers,
         collate_fn=ctc_collate,
+        pin_memory=(device.type == "cuda"),
+        persistent_workers=(num_workers > 0),
     )
 
     model = PhonemeCTCModel(
         vocab_size=len(stoi),
         hidden_dim=cfg["model"].get("hidden_dim", 512),
-        freeze_backbone=cfg["model"].get("freeze_backbone", True),
+        freeze_backbone=freeze_backbone,
         use_transfer=cfg["model"].get("use_transfer", True),
     ).to(device)
     print(json.dumps({"transfer_loaded": bool(model.transfer_loaded)}))
+    print(
+        json.dumps(
+            {
+                "device": str(device),
+                "train_batch_size": train_batch_size,
+                "eval_batch_size": eval_batch_size,
+                "grad_accum_steps": grad_accum_steps,
+                "effective_batch_size": train_batch_size * grad_accum_steps,
+                "freeze_backbone": freeze_backbone,
+                "unfreeze_epoch": unfreeze_epoch,
+                "cuda_alloc_conf": os.environ.get("PYTORCH_CUDA_ALLOC_CONF"),
+            }
+        )
+    )
 
     opt = torch.optim.AdamW(
         [p for p in model.parameters() if p.requires_grad],
@@ -136,45 +217,62 @@ def main() -> None:
     out_dir = Path(cfg["train"]["checkpoint_dir"])
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    unfreeze_epoch = int(cfg["train"].get("unfreeze_epoch", 3))
     grad_clip = float(cfg["train"].get("grad_clip", 5.0))
+    weight_decay = cfg["train"].get("weight_decay", 1e-4)
 
     for epoch in range(1, int(cfg["train"]["epochs"]) + 1):
-        if epoch == unfreeze_epoch:
+        if freeze_backbone and unfreeze_epoch is not None and epoch == unfreeze_epoch:
             model.unfreeze_backbone()
-            opt = torch.optim.AdamW(model.parameters(), lr=cfg["train"]["lr"])
+            opt = torch.optim.AdamW(
+                model.parameters(),
+                lr=cfg["train"]["lr"],
+                weight_decay=weight_decay,
+            )
 
         model.train()
         running_loss = 0.0
+        oom_skips = 0
 
         prog = tqdm(train_loader, desc=f"epoch {epoch}", ncols=100)
-        for batch in prog:
-            feats = batch["features"].to(device)
-            feat_lens = batch["feature_lens"].to(device)
-            targets = batch["targets"].to(device)
-            target_lens = batch["target_lens"].to(device)
-            label_weights = batch["label_weights"].to(device)
+        opt.zero_grad(set_to_none=True)
+        num_train_batches = len(train_loader)
+        for step_idx, batch in enumerate(prog, start=1):
+            try:
+                feats = batch["features"].to(device, non_blocking=True)
+                feat_lens = batch["feature_lens"].to(device, non_blocking=True)
+                targets = batch["targets"].to(device, non_blocking=True)
+                target_lens = batch["target_lens"].to(device, non_blocking=True)
+                label_weights = batch["label_weights"].to(device, non_blocking=True)
 
-            opt.zero_grad(set_to_none=True)
-            with torch.cuda.amp.autocast(enabled=(device.type == "cuda")):
-                logits, out_lens = model(feats, feat_lens)
-                loss = batch_ctc_loss(
-                    logits,
-                    out_lens,
-                    targets,
-                    target_lens,
-                    label_weights,
-                    blank_id,
-                )
+                with torch.cuda.amp.autocast(enabled=(device.type == "cuda")):
+                    logits, out_lens = model(feats, feat_lens)
+                    loss = batch_ctc_loss(
+                        logits,
+                        out_lens,
+                        targets,
+                        target_lens,
+                        label_weights,
+                        blank_id,
+                    )
 
-            scaler.scale(loss).backward()
-            scaler.unscale_(opt)
-            torch.nn.utils.clip_grad_norm_(model.parameters(), grad_clip)
-            scaler.step(opt)
-            scaler.update()
+                scaler.scale(loss / grad_accum_steps).backward()
 
-            running_loss += float(loss.item())
-            prog.set_postfix(loss=f"{loss.item():.4f}")
+                if step_idx % grad_accum_steps == 0 or step_idx == num_train_batches:
+                    scaler.unscale_(opt)
+                    torch.nn.utils.clip_grad_norm_(model.parameters(), grad_clip)
+                    scaler.step(opt)
+                    scaler.update()
+                    opt.zero_grad(set_to_none=True)
+
+                running_loss += float(loss.item())
+                prog.set_postfix(loss=f"{loss.item():.4f}", oom=oom_skips)
+            except torch.OutOfMemoryError:
+                oom_skips += 1
+                opt.zero_grad(set_to_none=True)
+                if device.type == "cuda":
+                    torch.cuda.empty_cache()
+                prog.set_postfix(loss="oom-skip", oom=oom_skips)
+                continue
 
         val_metrics = evaluate(model, val_loader, itos, blank_id, device)
         avg_loss = running_loss / max(1, len(train_loader))
@@ -185,6 +283,7 @@ def main() -> None:
                     "train_loss": avg_loss,
                     "val_per": val_metrics["per"],
                     "val_cer": val_metrics["cer"],
+                    "oom_skips": oom_skips,
                 }
             )
         )

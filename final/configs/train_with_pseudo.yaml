@@ -10,11 +10,13 @@ model:
   use_transfer: true
 
 train:
-  epochs: 20
-  batch_size: 32
+  epochs: 40
+  batch_size: 8
+  eval_batch_size: 8
+  grad_accum_steps: 8
   lr: 0.0003
   weight_decay: 0.0001
   grad_clip: 5.0
-  unfreeze_epoch: 1
+  unfreeze_epoch: null
   num_workers: 4
   checkpoint_dir: checkpoints/semi_supervised_round1

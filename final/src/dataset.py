@@ -11,6 +11,32 @@ from src.augment import SpecAugment, maybe_wave_augment
 from src.features import LogMelFrontend, load_audio
 from src.text import encode_text
 
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+
+def resolve_audio_path(row: dict) -> str:
+    raw_path = Path(row["audio_path"])
+    candidates: list[Path] = []
+
+    if raw_path.is_absolute():
+        candidates.append(raw_path)
+        if "audio" in raw_path.parts:
+            audio_idx = raw_path.parts.index("audio")
+            candidates.append(PROJECT_ROOT.joinpath(*raw_path.parts[audio_idx:]))
+        candidates.append(PROJECT_ROOT / "audio" / raw_path.name)
+    else:
+        candidates.append(PROJECT_ROOT / raw_path)
+
+    utt_id = row.get("utterance_id")
+    if utt_id:
+        candidates.append(PROJECT_ROOT / "audio" / f"{utt_id}.flac")
+
+    for candidate in candidates:
+        if candidate.exists():
+            return str(candidate)
+
+    return str(raw_path)
+
 
 class PhonemeDataset(Dataset):
     def __init__(
@@ -42,7 +68,7 @@ class PhonemeDataset(Dataset):
 
     def __getitem__(self, index: int) -> dict:
         row = self.rows[index]
-        waveform, _ = load_audio(row["audio_path"])
+        waveform, _ = load_audio(resolve_audio_path(row))
         if self.train:
             waveform = maybe_wave_augment(waveform)
 

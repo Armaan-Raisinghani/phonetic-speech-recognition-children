@@ -35,6 +35,7 @@ Outputs:
 ## 3) Supervised baseline training
 
 ```bash
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 python scripts/train.py --config configs/train.yaml
 ```
 
@@ -70,6 +71,7 @@ python scripts/pseudo_label.py \
 Then train again:
 
 ```bash
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 python scripts/train.py --config configs/train_with_pseudo.yaml
 ```
 
@@ -97,3 +99,5 @@ python scripts/infer.py \
 - Primary metric is PER (implemented as edit distance over non-space IPA symbols).
 - Secondary metric is CER.
 - Transfer loading is best-effort via torch hub (PANNs repo); if unavailable offline, training still runs with random initialization.
+- The training configs are tuned for 8 GB GPUs by using smaller per-step batches, gradient accumulation, and length-bucketed batches to reduce padding-related memory spikes.
+- Set `train.unfreeze_epoch: null` to keep the backbone frozen for the full run. Unfreezing increases memory use substantially.
