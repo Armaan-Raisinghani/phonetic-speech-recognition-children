@@ -14,7 +14,7 @@ import torch
 from torch.utils.data import DataLoader
 
 from src.dataset import PhonemeDataset, ctc_collate
-from src.decode import confidence_from_logits, greedy_ctc_decode
+from src.decode import confidence_from_logits, decode_logits
 from src.model import PhonemeCTCModel
 from src.text import decode_ids
 
@@ -28,6 +28,8 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--keep-ratio", type=float, default=0.2)
     p.add_argument("--pseudo-weight", type=float, default=0.4)
     p.add_argument("--batch-size", type=int, default=32)
+    p.add_argument("--decode-strategy", type=str, default=None)
+    p.add_argument("--beam-size", type=int, default=None)
     p.add_argument("--out-pseudo", type=Path, default=Path("data/manifests/pseudo_labels.jsonl"))
     p.add_argument(
         "--out-merged-train",
@@ -75,6 +77,9 @@ def main() -> None:
     ckpt = torch.load(args.checkpoint, map_location="cpu")
     cfg = ckpt.get("config", {})
     hidden_dim = cfg.get("model", {}).get("hidden_dim", 512)
+    decode_cfg = cfg.get("decode", {})
+    decode_strategy = (args.decode_strategy or decode_cfg.get("strategy") or "beam").strip().lower()
+    beam_size = max(1, int(args.beam_size or decode_cfg.get("beam_size", 8)))
 
     model = PhonemeCTCModel(vocab_size=len(stoi), hidden_dim=hidden_dim, freeze_backbone=False)
     model.load_state_dict(ckpt["model_state"])
@@ -89,7 +94,12 @@ def main() -> None:
             feat_lens = batch["feature_lens"].to(device)
             logits, _ = model(feats, feat_lens)
             conf = confidence_from_logits(logits).cpu().tolist()
-            pred_ids = greedy_ctc_decode(logits, blank_id=blank_id)
+            pred_ids = decode_logits(
+                logits,
+                blank_id=blank_id,
+                strategy=decode_strategy,
+                beam_size=beam_size,
+            )
             pred_texts = [decode_ids(ids, itos) for ids in pred_ids]
 
             for utt_id, text, score in zip(batch["utt_ids"], pred_texts, conf):
@@ -139,6 +149,8 @@ def main() -> None:
                 "num_candidates": len(candidates),
                 "keep_ratio": args.keep_ratio,
                 "num_pseudo_kept": len(pseudo_rows),
+                "decode_strategy": decode_strategy,
+                "beam_size": beam_size,
                 "out_pseudo": str(args.out_pseudo),
                 "out_merged_train": str(args.out_merged_train),
             },

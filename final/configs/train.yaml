@@ -9,6 +9,10 @@ model:
   freeze_backbone: true
   use_transfer: true
 
+decode:
+  strategy: beam
+  beam_size: 8
+
 train:
   epochs: 30
   batch_size: 8
@@ -19,4 +23,5 @@ train:
   grad_clip: 5.0
   unfreeze_epoch: null
   num_workers: 4
+  selection_metric: cer
   checkpoint_dir: checkpoints/baseline

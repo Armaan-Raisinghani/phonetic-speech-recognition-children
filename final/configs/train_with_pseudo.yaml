@@ -9,8 +9,12 @@ model:
   freeze_backbone: false
   use_transfer: true
 
+decode:
+  strategy: beam
+  beam_size: 8
+
 train:
-  epochs: 40
+  epochs: 10
   batch_size: 8
   eval_batch_size: 8
   grad_accum_steps: 8
@@ -19,4 +23,5 @@ train:
   grad_clip: 5.0
   unfreeze_epoch: null
   num_workers: 4
+  selection_metric: cer
   checkpoint_dir: checkpoints/semi_supervised_round1

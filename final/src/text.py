@@ -52,7 +52,7 @@ def build_vocab() -> tuple[dict[str, int], dict[int, str]]:
 
 
 def encode_text(text: str, stoi: dict[str, int]) -> list[int]:
-    return [stoi[ch] for ch in text if ch in stoi and ch != " "]
+    return [stoi[ch] for ch in text if ch in stoi]
 
 
 def decode_ids(ids: list[int], itos: dict[int, str]) -> str:

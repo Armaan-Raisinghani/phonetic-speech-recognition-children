@@ -14,7 +14,7 @@ import torch
 from torch.utils.data import DataLoader
 
 from src.dataset import PhonemeDataset, ctc_collate
-from src.decode import greedy_ctc_decode
+from src.decode import decode_logits
 from src.metrics import cer, per
 from src.model import PhonemeCTCModel
 from src.text import decode_ids
@@ -27,6 +27,8 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--checkpoint", type=Path, required=True)
     p.add_argument("--batch-size", type=int, default=32)
     p.add_argument("--out", type=Path, default=Path("results/eval_predictions.jsonl"))
+    p.add_argument("--decode-strategy", type=str, default=None)
+    p.add_argument("--beam-size", type=int, default=None)
     return p.parse_args()
 
 
@@ -51,6 +53,9 @@ def main() -> None:
     ckpt = torch.load(args.checkpoint, map_location="cpu")
     cfg = ckpt.get("config", {})
     hidden_dim = cfg.get("model", {}).get("hidden_dim", 512)
+    decode_cfg = cfg.get("decode", {})
+    decode_strategy = (args.decode_strategy or decode_cfg.get("strategy") or "beam").strip().lower()
+    beam_size = max(1, int(args.beam_size or decode_cfg.get("beam_size", 8)))
 
     model = PhonemeCTCModel(vocab_size=len(stoi), hidden_dim=hidden_dim, freeze_backbone=False)
     model.load_state_dict(ckpt["model_state"])
@@ -66,7 +71,12 @@ def main() -> None:
             feats = batch["features"].to(device)
             feat_lens = batch["feature_lens"].to(device)
             logits, _ = model(feats, feat_lens)
-            pred_ids = greedy_ctc_decode(logits, blank_id=blank_id)
+            pred_ids = decode_logits(
+                logits,
+                blank_id=blank_id,
+                strategy=decode_strategy,
+                beam_size=beam_size,
+            )
             pred_texts = [decode_ids(ids, itos) for ids in pred_ids]
 
             for utt, ref, hyp in zip(batch["utt_ids"], batch["texts"], pred_texts):
@@ -93,6 +103,8 @@ def main() -> None:
         "num_samples": len(per_vals),
         "avg_per": float(sum(per_vals) / max(1, len(per_vals))),
         "avg_cer": float(sum(cer_vals) / max(1, len(cer_vals))),
+        "decode_strategy": decode_strategy,
+        "beam_size": beam_size,
         "predictions": str(args.out),
     }
     print(json.dumps(summary, ensure_ascii=False, indent=2))

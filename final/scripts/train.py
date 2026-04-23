@@ -18,7 +18,7 @@ from torch.utils.data import DataLoader, Sampler
 from tqdm import tqdm
 
 from src.dataset import PhonemeDataset, ctc_collate
-from src.decode import greedy_ctc_decode
+from src.decode import decode_logits
 from src.metrics import cer, per
 from src.model import PhonemeCTCModel
 from src.text import decode_ids
@@ -51,6 +51,20 @@ def resolve_optional_int(value: object) -> int | None:
     if isinstance(value, str) and value.strip().lower() in {"", "none", "null", "false"}:
         return None
     return int(value)
+
+
+def resolve_decode_config(cfg: dict) -> tuple[str, int]:
+    decode_cfg = cfg.get("decode", {})
+    strategy = str(decode_cfg.get("strategy", "beam")).strip().lower()
+    beam_size = max(1, int(decode_cfg.get("beam_size", 8)))
+    return strategy, beam_size
+
+
+def resolve_selection_metric(cfg: dict) -> str:
+    metric = str(cfg["train"].get("selection_metric", "cer")).strip().lower()
+    if metric not in {"per", "cer"}:
+        raise ValueError(f"Unsupported selection metric: {metric}")
+    return metric
 
 
 class DurationBucketBatchSampler(Sampler[list[int]]):
@@ -99,6 +113,7 @@ def batch_ctc_loss(
     log_probs = torch.log_softmax(logits, dim=-1).transpose(0, 1)
     ctc = torch.nn.CTCLoss(blank=blank_id, reduction="none", zero_infinity=True)
     loss_vec = ctc(log_probs, targets, out_lens, target_lens)
+    loss_vec = loss_vec / torch.clamp(target_lens.float(), min=1.0)
     norm_w = label_weights / torch.clamp(label_weights.sum(), min=1e-6)
     return (loss_vec * norm_w).sum()
 
@@ -109,6 +124,8 @@ def evaluate(
     itos: dict[int, str],
     blank_id: int,
     device: torch.device,
+    decode_strategy: str,
+    beam_size: int,
 ) -> dict[str, float]:
     model.eval()
     all_per = []
@@ -118,7 +135,12 @@ def evaluate(
             feats = batch["features"].to(device)
             feat_lens = batch["feature_lens"].to(device)
             logits, _ = model(feats, feat_lens)
-            pred_ids = greedy_ctc_decode(logits, blank_id=blank_id)
+            pred_ids = decode_logits(
+                logits,
+                blank_id=blank_id,
+                strategy=decode_strategy,
+                beam_size=beam_size,
+            )
             pred_texts = [decode_ids(ids, itos) for ids in pred_ids]
             for ref, hyp in zip(batch["texts"], pred_texts):
                 all_per.append(per(ref, hyp))
@@ -144,6 +166,8 @@ def main() -> None:
     num_workers = resolve_num_workers(cfg)
     freeze_backbone = bool(cfg["model"].get("freeze_backbone", True))
     unfreeze_epoch = resolve_optional_int(cfg["train"].get("unfreeze_epoch"))
+    decode_strategy, beam_size = resolve_decode_config(cfg)
+    selection_metric = resolve_selection_metric(cfg)
 
     stoi, itos = load_vocab(Path(cfg["data"]["vocab_path"]))
     blank_id = stoi["<blank>"]
@@ -201,6 +225,9 @@ def main() -> None:
                 "effective_batch_size": train_batch_size * grad_accum_steps,
                 "freeze_backbone": freeze_backbone,
                 "unfreeze_epoch": unfreeze_epoch,
+                "decode_strategy": decode_strategy,
+                "beam_size": beam_size,
+                "selection_metric": selection_metric,
                 "cuda_alloc_conf": os.environ.get("PYTORCH_CUDA_ALLOC_CONF"),
             }
         )
@@ -213,7 +240,7 @@ def main() -> None:
     )
     scaler = torch.cuda.amp.GradScaler(enabled=(device.type == "cuda"))
 
-    best_per = 1e9
+    best_metric = 1e9
     out_dir = Path(cfg["train"]["checkpoint_dir"])
     out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -274,8 +301,17 @@ def main() -> None:
                 prog.set_postfix(loss="oom-skip", oom=oom_skips)
                 continue
 
-        val_metrics = evaluate(model, val_loader, itos, blank_id, device)
+        val_metrics = evaluate(
+            model,
+            val_loader,
+            itos,
+            blank_id,
+            device,
+            decode_strategy=decode_strategy,
+            beam_size=beam_size,
+        )
         avg_loss = running_loss / max(1, len(train_loader))
+        selected_metric_value = float(val_metrics[selection_metric])
         print(
             json.dumps(
                 {
@@ -283,6 +319,8 @@ def main() -> None:
                     "train_loss": avg_loss,
                     "val_per": val_metrics["per"],
                     "val_cer": val_metrics["cer"],
+                    "selection_metric": selection_metric,
+                    "selection_value": selected_metric_value,
                     "oom_skips": oom_skips,
                 }
             )
@@ -293,11 +331,14 @@ def main() -> None:
             "config": cfg,
             "epoch": epoch,
             "val_per": val_metrics["per"],
+            "val_cer": val_metrics["cer"],
+            "selection_metric": selection_metric,
+            "selection_value": selected_metric_value,
         }
         torch.save(ckpt, out_dir / "last.pt")
 
-        if val_metrics["per"] < best_per:
-            best_per = val_metrics["per"]
+        if selected_metric_value < best_metric:
+            best_metric = selected_metric_value
             torch.save(ckpt, out_dir / "best.pt")
 
 
