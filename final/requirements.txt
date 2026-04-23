@@ -1,0 +1,6 @@
+torch>=2.2.0
+torchaudio>=2.2.0
+numpy>=1.24.0
+soundfile>=0.12.1
+PyYAML>=6.0.0
+tqdm>=4.66.0

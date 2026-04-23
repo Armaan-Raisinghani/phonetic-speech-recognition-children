@@ -1,1 +1,6 @@
-audio/
+audio/*
+features/*
+audio2/*
+audio2.2/*
+final/audio/*
+*.pyc
