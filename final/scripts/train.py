@@ -214,7 +214,15 @@ def main() -> None:
         freeze_backbone=freeze_backbone,
         use_transfer=cfg["model"].get("use_transfer", True),
     ).to(device)
-    print(json.dumps({"transfer_loaded": bool(model.transfer_loaded)}))
+    print(
+        json.dumps(
+            {
+                "transfer_loaded": bool(model.transfer_loaded),
+                "transfer_copied_tensors": int(getattr(model, "transfer_copied_tensors", 0)),
+                "transfer_checkpoint_path": getattr(model, "transfer_checkpoint_path", None),
+            }
+        )
+    )
     print(
         json.dumps(
             {
