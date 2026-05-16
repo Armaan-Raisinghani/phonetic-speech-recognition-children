@@ -15,8 +15,8 @@ from torch.utils.data import DataLoader
 
 from src.dataset import PhonemeDataset, ctc_collate
 from src.decode import decode_logits
-from src.metrics import cer, per
-from src.model import PhonemeCTCModel
+from src.metrics import PhonemeErrorAnalyzer, cer, per
+from src.model import build_model_from_config
 from src.text import decode_ids
 
 
@@ -27,6 +27,9 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--checkpoint", type=Path, required=True)
     p.add_argument("--batch-size", type=int, default=32)
     p.add_argument("--out", type=Path, default=Path("results/eval_predictions.jsonl"))
+    p.add_argument("--phoneme-report", type=Path, default=None)
+    p.add_argument("--phoneme-top-k", type=int, default=25)
+    p.add_argument("--phoneme-min-ref-count", type=int, default=5)
     p.add_argument("--decode-strategy", type=str, default=None)
     p.add_argument("--beam-size", type=int, default=None)
     return p.parse_args()
@@ -52,19 +55,21 @@ def main() -> None:
 
     ckpt = torch.load(args.checkpoint, map_location="cpu")
     cfg = ckpt.get("config", {})
-    hidden_dim = cfg.get("model", {}).get("hidden_dim", 512)
     decode_cfg = cfg.get("decode", {})
     decode_strategy = (args.decode_strategy or decode_cfg.get("strategy") or "beam").strip().lower()
     beam_size = max(1, int(args.beam_size or decode_cfg.get("beam_size", 8)))
 
-    model = PhonemeCTCModel(vocab_size=len(stoi), hidden_dim=hidden_dim, freeze_backbone=False)
+    model = build_model_from_config(vocab_size=len(stoi), cfg=cfg, freeze_backbone=False, use_transfer=False)
     model.load_state_dict(ckpt["model_state"])
     model = model.to(device)
     model.eval()
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
+    phoneme_report_path = args.phoneme_report or args.out.with_suffix(".phoneme_report.json")
+    phoneme_report_path.parent.mkdir(parents=True, exist_ok=True)
     per_vals = []
     cer_vals = []
+    phoneme_analyzer = PhonemeErrorAnalyzer()
 
     with args.out.open("w", encoding="utf-8") as fw, torch.no_grad():
         for batch in dl:
@@ -84,6 +89,7 @@ def main() -> None:
                 c = cer(ref, hyp)
                 per_vals.append(p)
                 cer_vals.append(c)
+                phoneme_analyzer.update(ref, hyp)
                 fw.write(
                     json.dumps(
                         {
@@ -106,7 +112,16 @@ def main() -> None:
         "decode_strategy": decode_strategy,
         "beam_size": beam_size,
         "predictions": str(args.out),
+        "phoneme_report": str(phoneme_report_path),
     }
+    phoneme_report = {
+        **summary,
+        "phoneme_analysis": phoneme_analyzer.summary(
+            top_k=max(1, int(args.phoneme_top_k)),
+            min_ref_count=max(1, int(args.phoneme_min_ref_count)),
+        ),
+    }
+    phoneme_report_path.write_text(json.dumps(phoneme_report, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps(summary, ensure_ascii=False, indent=2))
 
 

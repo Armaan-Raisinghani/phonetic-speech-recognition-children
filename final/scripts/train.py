@@ -20,7 +20,7 @@ from tqdm import tqdm
 from src.dataset import PhonemeDataset, ctc_collate
 from src.decode import decode_logits
 from src.metrics import cer, per
-from src.model import PhonemeCTCModel
+from src.model import build_model_from_config
 from src.text import decode_ids
 
 
@@ -65,6 +65,49 @@ def resolve_selection_metric(cfg: dict) -> str:
     if metric not in {"per", "cer"}:
         raise ValueError(f"Unsupported selection metric: {metric}")
     return metric
+
+
+def resolve_trainable_scope(cfg: dict) -> str:
+    scope = str(cfg.get("model", {}).get("trainable_scope", "legacy")).strip().lower()
+    allowed = {"legacy", "classifier", "head", "last_block_head", "all"}
+    if scope not in allowed:
+        raise ValueError(f"Unsupported model.trainable_scope: {scope}. Expected one of {sorted(allowed)}")
+    return scope
+
+
+def apply_trainable_scope(model: torch.nn.Module, scope: str, freeze_backbone: bool) -> None:
+    if scope == "classifier":
+        model.freeze_all_except_classifier()
+    elif scope == "head":
+        model.unfreeze_all()
+        model.freeze_backbone()
+    elif scope == "last_block_head":
+        last_n = int(cfg.get("model", {}).get("unfreeze_last_n_blocks", 1))
+        model.freeze_all_except_head_and_last_n_backbone_blocks(last_n)
+    elif scope == "all":
+        model.unfreeze_all()
+    elif freeze_backbone:
+        model.freeze_backbone()
+    else:
+        model.unfreeze_all()
+
+
+def trainable_parameter_summary(model: torch.nn.Module) -> dict[str, object]:
+    names = [name for name, param in model.named_parameters() if param.requires_grad]
+    count = sum(param.numel() for param in model.parameters() if param.requires_grad)
+    total = sum(param.numel() for param in model.parameters())
+    return {
+        "trainable_parameter_count": int(count),
+        "total_parameter_count": int(total),
+        "trainable_parameter_names": names,
+    }
+
+
+def build_optimizer(model: torch.nn.Module, lr: float, weight_decay: float) -> torch.optim.Optimizer:
+    params = [p for p in model.parameters() if p.requires_grad]
+    if not params:
+        raise ValueError("No trainable parameters found. Check model.trainable_scope.")
+    return torch.optim.AdamW(params, lr=lr, weight_decay=weight_decay)
 
 
 class DurationBucketBatchSampler(Sampler[list[int]]):
@@ -165,6 +208,7 @@ def main() -> None:
     grad_accum_steps = max(1, int(cfg["train"].get("grad_accum_steps", 1)))
     num_workers = resolve_num_workers(cfg)
     freeze_backbone = bool(cfg["model"].get("freeze_backbone", True))
+    trainable_scope = resolve_trainable_scope(cfg)
     unfreeze_epoch = resolve_optional_int(cfg["train"].get("unfreeze_epoch"))
     decode_strategy, beam_size = resolve_decode_config(cfg)
     selection_metric = resolve_selection_metric(cfg)
@@ -208,18 +252,21 @@ def main() -> None:
         persistent_workers=(num_workers > 0),
     )
 
-    model = PhonemeCTCModel(
+    model = build_model_from_config(
         vocab_size=len(stoi),
-        hidden_dim=cfg["model"].get("hidden_dim", 512),
+        cfg=cfg,
         freeze_backbone=freeze_backbone,
         use_transfer=cfg["model"].get("use_transfer", True),
-    ).to(device)
+    )
+    apply_trainable_scope(model, trainable_scope, freeze_backbone)
+    model = model.to(device)
     print(
         json.dumps(
             {
                 "transfer_loaded": bool(model.transfer_loaded),
                 "transfer_copied_tensors": int(getattr(model, "transfer_copied_tensors", 0)),
                 "transfer_checkpoint_path": getattr(model, "transfer_checkpoint_path", None),
+                "transfer_error": getattr(model, "transfer_error", None),
             }
         )
     )
@@ -232,6 +279,9 @@ def main() -> None:
                 "grad_accum_steps": grad_accum_steps,
                 "effective_batch_size": train_batch_size * grad_accum_steps,
                 "freeze_backbone": freeze_backbone,
+                "trainable_scope": trainable_scope,
+                "head_type": getattr(model, "head_type", None),
+                "num_backbone_blocks": len(getattr(model.backbone, "blocks", [])),
                 "unfreeze_epoch": unfreeze_epoch,
                 "decode_strategy": decode_strategy,
                 "beam_size": beam_size,
@@ -240,29 +290,23 @@ def main() -> None:
             }
         )
     )
-
-    opt = torch.optim.AdamW(
-        [p for p in model.parameters() if p.requires_grad],
-        lr=cfg["train"]["lr"],
-        weight_decay=cfg["train"].get("weight_decay", 1e-4),
-    )
-    scaler = torch.cuda.amp.GradScaler(enabled=(device.type == "cuda"))
+    print(json.dumps(trainable_parameter_summary(model)))
 
     best_metric = 1e9
     out_dir = Path(cfg["train"]["checkpoint_dir"])
     out_dir.mkdir(parents=True, exist_ok=True)
 
     grad_clip = float(cfg["train"].get("grad_clip", 5.0))
-    weight_decay = cfg["train"].get("weight_decay", 1e-4)
+    lr = float(cfg["train"]["lr"])
+    weight_decay = float(cfg["train"].get("weight_decay", 1e-4))
+    opt = build_optimizer(model, lr=lr, weight_decay=weight_decay)
+    scaler = torch.cuda.amp.GradScaler(enabled=(device.type == "cuda"))
 
     for epoch in range(1, int(cfg["train"]["epochs"]) + 1):
-        if freeze_backbone and unfreeze_epoch is not None and epoch == unfreeze_epoch:
-            model.unfreeze_backbone()
-            opt = torch.optim.AdamW(
-                model.parameters(),
-                lr=cfg["train"]["lr"],
-                weight_decay=weight_decay,
-            )
+        if unfreeze_epoch is not None and epoch == unfreeze_epoch:
+            model.unfreeze_all()
+            opt = build_optimizer(model, lr=lr, weight_decay=weight_decay)
+            print(json.dumps({"epoch": epoch, "event": "unfreeze_all", **trainable_parameter_summary(model)}))
 
         model.train()
         running_loss = 0.0
@@ -294,7 +338,7 @@ def main() -> None:
 
                 if step_idx % grad_accum_steps == 0 or step_idx == num_train_batches:
                     scaler.unscale_(opt)
-                    torch.nn.utils.clip_grad_norm_(model.parameters(), grad_clip)
+                    torch.nn.utils.clip_grad_norm_([p for p in model.parameters() if p.requires_grad], grad_clip)
                     scaler.step(opt)
                     scaler.update()
                     opt.zero_grad(set_to_none=True)

@@ -14,7 +14,7 @@ import torch
 
 from src.decode import decode_logits
 from src.features import LogMelFrontend, load_audio
-from src.model import PhonemeCTCModel
+from src.model import build_model_from_config
 from src.text import decode_ids
 
 
@@ -45,12 +45,11 @@ def main() -> None:
 
     ckpt = torch.load(args.checkpoint, map_location="cpu")
     cfg = ckpt.get("config", {})
-    hidden_dim = cfg.get("model", {}).get("hidden_dim", 512)
     decode_cfg = cfg.get("decode", {})
     decode_strategy = (args.decode_strategy or decode_cfg.get("strategy") or "beam").strip().lower()
     beam_size = max(1, int(args.beam_size or decode_cfg.get("beam_size", 8)))
 
-    model = PhonemeCTCModel(vocab_size=len(stoi), hidden_dim=hidden_dim, freeze_backbone=False)
+    model = build_model_from_config(vocab_size=len(stoi), cfg=cfg, freeze_backbone=False, use_transfer=False)
     model.load_state_dict(ckpt["model_state"])
     model = model.to(device)
     model.eval()

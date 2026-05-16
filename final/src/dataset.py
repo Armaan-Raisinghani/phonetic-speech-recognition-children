@@ -46,11 +46,15 @@ class PhonemeDataset(Dataset):
         sample_rate: int = 16000,
         train: bool = False,
         use_specaugment: bool = True,
+        feature_type: str = "logmel",
     ) -> None:
         self.rows = self._read_jsonl(manifest_path)
         self.stoi = stoi
         self.train = train
-        self.frontend = LogMelFrontend(sample_rate=sample_rate)
+        self.feature_type = feature_type.strip().lower()
+        if self.feature_type not in {"logmel", "raw"}:
+            raise ValueError(f"Unsupported feature_type: {feature_type}")
+        self.frontend = LogMelFrontend(sample_rate=sample_rate) if self.feature_type == "logmel" else None
         self.specaug = SpecAugment() if train and use_specaugment else None
 
     @staticmethod
@@ -72,7 +76,10 @@ class PhonemeDataset(Dataset):
         if self.train:
             waveform = maybe_wave_augment(waveform)
 
-        feat = self.frontend(waveform)
+        if self.frontend is None:
+            feat = waveform.squeeze(0).contiguous()
+        else:
+            feat = self.frontend(waveform)
         if self.specaug is not None:
             feat = self.specaug(feat)
 

@@ -6,15 +6,18 @@ data:
 
 model:
   hidden_dim: 512
+  num_backbone_blocks: 4
+  head_type: mlp
   freeze_backbone: true
   use_transfer: true
+  trainable_scope: head
 
 decode:
   strategy: beam
   beam_size: 8
 
 train:
-  epochs: 30
+  epochs: 11
   batch_size: 8
   eval_batch_size: 8
   grad_accum_steps: 4

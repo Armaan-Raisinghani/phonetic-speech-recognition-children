@@ -1,0 +1,32 @@
+data:
+  train_manifest: data/manifests/train.jsonl
+  val_manifest: data/manifests/val.jsonl
+  vocab_path: data/manifests/vocab.json
+  use_specaugment: true
+
+model:
+  hidden_dim: 256
+  bilstm_layers: 2
+  dropout: 0.3
+  num_backbone_blocks: 4
+  head_type: bilstm
+  freeze_backbone: true
+  use_transfer: true
+  trainable_scope: last_block_head
+
+decode:
+  strategy: beam
+  beam_size: 8
+
+train:
+  epochs: 12
+  batch_size: 8
+  eval_batch_size: 8
+  grad_accum_steps: 4
+  lr: 0.0001
+  weight_decay: 0.0001
+  grad_clip: 5.0
+  unfreeze_epoch: null
+  num_workers: 4
+  selection_metric: cer
+  checkpoint_dir: checkpoints/track_d_cnn_bilstm_last_block

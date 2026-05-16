@@ -1,0 +1,64 @@
+# === Audio & large binary data ===
+audio/
+pretrained/
+external/
+*.flac
+*.wav
+*.mp3
+
+# === Model checkpoints ===
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# === AI tool artifacts ===
+.claude/
+.codex
+saved_chats.md
+
+# === Internal docs / tuning notes ===
+CLDNN_CTC_TUNING.md
+CLDNN_PROGRESS_REPORT.md
+DEEPSPEECH2_TRANSFER_REVIEW.md
+DEEP_RESEARCH_CONTEXT.md
+ELI10_TECHNICAL_GUIDE.md
+FINAL_PRESENTATION_JOURNEY_REPORT.md
+METHOD_FINDINGS.md
+PYTORCH_DEEPSPEECH2_TRANSFER.md
+TRACK_D_AND_VGG_TUNING.md
+
+# === PDFs ===
+*.pdf
+
+# === Report assets & results ===
+report_assets/
+results/
+
+# === Duplicate / scratch notebooks ===
+phoneme_pipeline (2).ipynb
+plain_bilstm (1).ipynb
+phoneme_pipeline.ipynb
+
+# === Raw data dumps ===
+train_phon_transcripts.jsonl
+
+# === One-off utility scripts ===
+scripts/quick_test_eval.py
+scripts/eval_phone_lm_decode.py
+scripts/compare_phoneme_reports.py
+scripts/pseudo_label.py
+scripts/export_deepspeech_data.py
+scripts/evaluate_vgg_bilstm.py
+scripts/train_panns_cnn_bilstm_last_block.py
+scripts/train_cldnn_transfer_probe.py
+
+# === OS ===
+.DS_Store
+Thumbs.db
